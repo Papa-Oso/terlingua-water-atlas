@@ -6,9 +6,9 @@ An interactive map of public Texas groundwater records within 50 statute miles o
 
 The static application is in `dist/`. Serve that directory over HTTP (for example, `python -m http.server 8765 --directory dist`) and open `http://localhost:8765`. Map backgrounds and regional overlays require internet access. The well-record snapshot is stored locally with the application.
 
-Click a record to inspect reported depth, yield, dates, source evidence and the original report. Filters narrow the displayed records. Enter a parcel's latitude and longitude to compare nearby records. Downloaded records reflect the current filter. Nearby production does not establish that a parcel has the same geology or water supply.
+Click a record to inspect reported depth, yield, dates, source evidence and the original report. Filters narrow the displayed records. Enter coordinates to compare nearby records. Downloaded records reflect the current filter. Nearby production does not establish that a location has the same geology or water supply.
 
-The initial view also shows three curated land-search areas with linked well evidence and asking-price examples checked October 23, 2026. `dist/data/search-areas.json` contains the published shortlist; `listing-research.json` and `area-water-analysis.json` retain the research. The numbered boxes are approximate search windows, not parcel boundaries, aquifer outlines or predictions. Seller listing points and access descriptions are approximate. Prices are asks rather than closed-sale comparables. The former $40,000 Ocotillo Avenue listing was removed in June 2026 and is excluded from the published shortlist.
+The default view covers the full study area. Earlier land-search research remains in `dist/data/search-areas.json`, `listing-research.json` and `area-water-analysis.json` as dated historical examples; the application no longer loads or displays that shortlist. Those files contain approximate search windows and asking-price leads checked October 23, 2026, not current purchase recommendations, parcel boundaries or groundwater predictions.
 
 ## Evidence rules
 

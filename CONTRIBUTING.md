@@ -34,6 +34,16 @@ For changes to the well snapshot, run:
 python groundwater-map/scripts/audit_snapshot.py
 ```
 
+After changing published well data, the source catalog or findings, regenerate and validate the API snapshot:
+
+```sh
+python scripts/build_api.py
+python scripts/build_api.py --check
+python scripts/check_repository.py
+```
+
+See the [maintenance method](docs/MAINTENANCE.md) for source discovery, retrieval, review and publication, and the [API instructions](docs/API.md) for the public interface. Generated API files should change with their reviewed source inputs.
+
 For interface changes, check the map, filters, record details, table and export in a browser. Keep source attribution visible. Explain the validation performed in the pull request, along with any known limitations. Do not label a cached rebuild as a new retrieval; preserve the actual snapshot date.
 
 ## Research standards

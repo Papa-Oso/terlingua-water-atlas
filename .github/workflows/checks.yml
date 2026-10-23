@@ -18,6 +18,8 @@ jobs:
         run: python3 scripts/check_repository.py
       - name: Audit groundwater snapshot
         run: python3 groundwater-map/scripts/audit_snapshot.py
+      - name: Check published API snapshot and source references
+        run: python3 scripts/build_api.py --check
       - name: Check JavaScript syntax
         run: |
           node --check groundwater-map/dist/app.js

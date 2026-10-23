@@ -177,6 +177,5 @@ addContextControls();
     const data=await response.json();metadata=data.metadata||{};if(!Array.isArray(data.wells))throw new Error('Invalid record data');
     wells=data.wells.filter(w=>finite(w.lat)&&finite(w.lon)&&Math.abs(w.lat)<=90&&Math.abs(w.lon)<=180).map(w=>({...w,id:String(w.id),lat:Number(w.lat),lon:Number(w.lon),status:Object.hasOwn(COLORS,w.status)?w.status:'unknown'}));
     populateMetadata();applyFilters();$('loading-state').hidden=true;
-    await initializeSearchAreas();
   }catch(error){$('loading-state').innerHTML=`<div class="error-state"><strong>Well records could not load.</strong><p>The atlas requires its extracted <code>data/wells.json</code> file and a local or hosted web server. No sample records have been substituted.</p><p>${esc(error.message)}</p><button class="outline-button" onclick="location.reload()">Try again</button></div>`;$('results-summary').textContent='Record data unavailable';}
 })();
