@@ -1,0 +1,229 @@
+{
+  "checked_date": "2026-10-23",
+  "purpose": "Current asking-price evidence for broad search areas; not parcel recommendations, appraisals, or water rights verification.",
+  "caveats": [
+    "Asking prices, not closed sale prices; listing status may change.",
+    "Road and power statements are seller or listing-agent claims, not independently surveyed access.",
+    "Coordinates are source listing points, not surveyed parcel boundaries. Where source directions differ from map coordinates both are preserved.",
+    "No listing water supply claim has been matched to a verified working well."
+  ],
+  "listings": [
+    {
+      "id": "ocotillo-33947",
+      "title": "33947 Ocotillo Ave (agent website says 33497 Ocotillo Mesa)",
+      "area": "Ocotillo Mesa / Hwy 118 north of Study Butte",
+      "asking_usd": 40000,
+      "acres": 10,
+      "usd_per_acre": 4000,
+      "status": "Off market on Zillow; listing removed 2026-06-28. Historical asking-price example only.",
+      "url": "https://www.zillow.com/homedetails/33947-Ocotillo-Ave-Terlingua-TX-79852/458722593_zpid/",
+      "primary_agent_url": "https://www.terlinguapropertyconnection.com/home/properties",
+      "source_type": "Zillow price history confirms removal; earlier LandSearch active search snippet was stale and direct URL now redirects.",
+      "listing_updated": "2026-06-28 listing removed",
+      "mls": "OBOR 161341",
+      "parcel": "33947",
+      "coordinates": {
+        "lat": 29.415,
+        "lon": -103.5331,
+        "kind": "Listing map point"
+      },
+      "agent_directions_coordinates": {
+        "lat": 29.4116667,
+        "lon": -103.5361111,
+        "original": "29°24'42 N 103°32'10 W"
+      },
+      "coordinate_note": "Directions and listing map point differ by about 0.29 miles; broad search-area use only.",
+      "road_claim": "Easy access from Highway 118; minutes from Study Butte/Terlingua.",
+      "power_claim": "Electricity available.",
+      "improvements": "Undeveloped",
+      "water_claim": null,
+      "status_correction": "Do not present as available land. Agent website retains marketing in search index but could not be opened; not proof of active status."
+    },
+    {
+      "id": "longdraw-26885",
+      "title": "26885 Long Draw Rd",
+      "area": "FM 170 west of Terlingua Ghost Town / Long Draw",
+      "asking_usd": 975000,
+      "acres": 393,
+      "usd_per_acre": 2480.916030534351,
+      "status": "Active",
+      "url": "https://www.land.com/property/393-acres-in-brewster-county-texas/24964442/",
+      "coordinate_url": "https://www.landsearch.com/properties/26885-long-draw-rd-terlingua-tx-79852/4805385",
+      "broker_url": "https://www.etxpp.com/mls/25013171",
+      "source_type": "MLS syndicated listing",
+      "listing_updated": "2026-08-20",
+      "mls": "OBOR 163273 / Tyler 25013171",
+      "parcel": "26885",
+      "coordinates": {
+        "lat": 29.3192,
+        "lon": -103.6388,
+        "kind": "Listing map point"
+      },
+      "road_claim": "North of Highway 170 between Ghost Town and Lajitas, accessed via Long Draw Road; internal roads and creek crossing claimed.",
+      "power_claim": "Power easements at Highway 170; power not stated as installed on property.",
+      "improvements": "Unimproved acreage",
+      "water_claim": "Water source listed as None.",
+      "note": "Potentially relevant scale but $975k land-only. Seller mentions divided offerings; acreage subtotals in one marketing version do not equal 393, so division must be clarified."
+    },
+    {
+      "id": "wetbypass-16840",
+      "title": "16840 and 31430 Wet Bypass",
+      "area": "Highway 118 / Terlingua Ranch Road entrance",
+      "asking_usd": 40000,
+      "acres": 20,
+      "usd_per_acre": 2000,
+      "status": "Marketed on listing agent website; active on Redfin",
+      "url": "https://www.terlinguapropertyconnection.com/home/properties",
+      "corroborating_url": "https://www.redfin.com/TX/Terlingua/16840-Wet-BYP-79852/home/194575051",
+      "source_type": "Listing agent website",
+      "listing_updated": "2026-05-07 (Redfin)",
+      "mls": "OBOR 167588",
+      "parcel": "16840 and 31430",
+      "coordinates": {
+        "lat": 29.5486111,
+        "lon": -103.5180556,
+        "kind": "Converted listing-agent coordinates",
+        "original": "29°32'55 N 103°31'05 W"
+      },
+      "road_claim": "Just off pavement, two minutes from Highway 118; private caliche road per Realtor.com.",
+      "improvements": "Unimproved land",
+      "water_claim": "No water service listed on Redfin."
+    },
+    {
+      "id": "ranchroad-907",
+      "title": "907 Terlingua Ranch Rd",
+      "area": "Terlingua Ranch Road eastward toward lodge",
+      "asking_usd": 55000,
+      "acres": 40,
+      "usd_per_acre": 1375,
+      "status": "Active sale",
+      "url": "https://www.landsearch.com/properties/907-terlingua-ranch-rd-terlingua-tx-79852/4949599",
+      "source_type": "MLS syndicated listing",
+      "listing_updated": "2026-08-03",
+      "mls": "OBOR 165058",
+      "parcel": "27247",
+      "coordinates": {
+        "lat": 29.5077,
+        "lon": -103.3768,
+        "kind": "Listing map point"
+      },
+      "road_claim": "Land on both sides of paved county Terlingua Ranch Road; a few miles from lodge.",
+      "power_claim": "Fiber optic; electricity nearby.",
+      "improvements": "Undeveloped",
+      "water_claim": null,
+      "note": "Do not confuse with Highway 118 entrance; this is substantially east toward lodge."
+    },
+    {
+      "id": "gate1-310",
+      "title": "310 Gate 1 1/2 Rd",
+      "area": "Highway 118 north of Study Butte",
+      "asking_usd": 84500,
+      "acres": 40,
+      "usd_per_acre": 2112.5,
+      "status": "Active sale",
+      "url": "https://www.landsearch.com/properties/310-gate-1-1-2-rd-terlingua-tx-79852/5295489",
+      "corroborating_url": "https://www.compass.com/homedetails/310-Gate-1-Rd-Alpine-TX-79830/2I7IVA_pid/",
+      "source_type": "MLS syndicated listing",
+      "listing_updated": "2026-10-06 (Showcase)",
+      "mls": "OBOR 175021",
+      "parcel": "25790",
+      "coordinates": {
+        "lat": 29.3807,
+        "lon": -103.5494,
+        "kind": "Listing map point"
+      },
+      "agent_directions_coordinates": {
+        "lat": 29.3779,
+        "lon": -103.5502
+      },
+      "coordinate_note": "Listing map point and direction coordinates differ by about 0.20 miles.",
+      "road_claim": "A few miles down road from Gate 1 1/2; private dirt road; near town.",
+      "power_claim": "No utilities.",
+      "improvements": "Unimproved land",
+      "water_claim": "No water service listed."
+    },
+    {
+      "id": "southcounty-2083",
+      "title": "2083 S County Rd",
+      "area": "North of Terlingua Ghost Town",
+      "asking_usd": 140000,
+      "acres": 40,
+      "usd_per_acre": 3500,
+      "status": "Active sale",
+      "url": "https://www.landsearch.com/properties/2083-s-county-rd-terlingua-tx-79852/5078167",
+      "source_type": "MLS syndicated listing",
+      "listing_updated": "2026-09-04",
+      "mls": "OBOR 167790",
+      "parcel": "25966",
+      "coordinates": {
+        "lat": 29.3464,
+        "lon": -103.6038,
+        "kind": "Listing map point"
+      },
+      "road_claim": "Two miles from Ghost Town along South County Road; quality not established.",
+      "improvements": "Vintage RV, shipping container, holding tanks and gravity-fed water system.",
+      "water_claim": "Storage system only; no producing well claimed.",
+      "note": "Improved property; not a clean raw-land comparable."
+    },
+    {
+      "id": "gate4-174613",
+      "title": "Gate 4 Rd, Wild Horse Mountain area",
+      "area": "Highway 118 / Ocotillo Mesa vicinity north of Study Butte",
+      "asking_usd": 66000,
+      "acres": 11.16,
+      "usd_per_acre": 5913.98,
+      "status": "Active sale, direct page opened successfully",
+      "url": "https://www.landsearch.com/properties/gate-4-rd-terlingua-tx-79852/5245929",
+      "corroborating_url": "https://www.movoto.com/terlingua-tx/gate-4-rd-terlingua-tx-79852/pid_qa5f7pk1jqbb/",
+      "directions_url": "https://www.realtor.com/realestateandhomes-detail/Gate-4_Terlingua_TX_79852_M80996-64804",
+      "source_type": "MLS syndicated listing; LandSearch and Movoto direct pages opened",
+      "listing_updated": "2026-09-04",
+      "mls": "OBOR 174613",
+      "coordinates": {
+        "lat": 29.4212,
+        "lon": -103.4935,
+        "kind": "Listing map point"
+      },
+      "road_claim": "0.83 mile from Highway 118 on Gate 4 Road, both sides of road; private caliche road",
+      "power_claim": "Fiber optics claimed; no electricity on property per Realtor",
+      "improvements": "Unimproved land",
+      "water_claim": "Seller describes a high-quality well area, but water source is None. Neither area water quality nor a well on this parcel verified."
+    }
+  ],
+  "unpinned_price_context": [
+    {
+      "title": "Tract 8817",
+      "asking_usd": 25000,
+      "acres": 20,
+      "usd_per_acre": 1250,
+      "url": "https://poatri.org/land-terlingua-texas/buying-selling-land/for-sale-by-owner/",
+      "source_type": "Seller advertisement on POATRI official site",
+      "status": "Appears on FSBO page updated 2026-10-09; individual post 2024-06-04",
+      "road_claim": "1.1 miles driving from Highway 118; one block south of Ranch Road; no 4WD claimed.",
+      "coordinates": null
+    },
+    {
+      "title": "2106 Salt Flat Rd",
+      "asking_usd": 35000,
+      "acres": 40,
+      "usd_per_acre": 875,
+      "url": "https://www.realtor.com/realestateandhomes-detail/2106-Salt-Flat-Rd_Terlingua_TX_79852_M92123-20196",
+      "status": "Active on Realtor; Zillow off-market conflict",
+      "road_claim": "Off South County Road at private end of Salt Flat; dirt road.",
+      "coordinates": null,
+      "note": "Raw-land low-price lead, but not suitable to plot without location verification."
+    }
+  ],
+  "rejected": [
+    {
+      "title": "TR 42 Gate 2 Road",
+      "reason": "Listing-map point at29.3103,-103.5784 conflicts markedly with agent GPS29.40082,-103.459029; not safe to plot as verified parcel.",
+      "url": "https://www.landsearch.com/properties/tr-42-gate-2-rd-terlingua-tx-79852/5251606"
+    },
+    {
+      "title": "40 acres SE Longdraw, Savvy Lands",
+      "reason": "Sold listing; not current asking-price evidence.",
+      "url": "https://www.landwatch.com/brewster-county-texas-farms-and-ranches-for-sale/pid/404523306"
+    }
+  ]
+}

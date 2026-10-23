@@ -1,0 +1,116 @@
+{
+  "title": "Terlingua groundwater evidence map",
+  "schema_version": 1,
+  "retrieved_at": "2026-10-23",
+  "center": {
+    "lat": 29.3216,
+    "lon": -103.616,
+    "name": "Terlingua Ghost Town, Texas",
+    "source_url": "https://www.tshaonline.org/handbook/entries/terlingua-tx"
+  },
+  "radius_miles": 50,
+  "radius_meters": 80467.2,
+  "distance_method": "Haversine great-circle distance, mean Earth radius 3958.7613 statute miles; rounded town center",
+  "record_count": 774,
+  "counts": {
+    "plugged_abandoned": 120,
+    "positive_yield": 386,
+    "dry": 39,
+    "unknown": 229
+  },
+  "status_counts": {
+    "plugged_abandoned": 120,
+    "positive_yield": 386,
+    "dry": 39,
+    "unknown": 229
+  },
+  "source_counts": {
+    "SDR": 331,
+    "GWDB": 386,
+    "Plugging": 57
+  },
+  "record_kind_counts": {
+    "water_well": 663,
+    "test_hole": 13,
+    "soil_boring": 24,
+    "monitoring": 22,
+    "spring": 46,
+    "oil_gas": 4,
+    "surface_water": 2
+  },
+  "water_well_record_count": 663,
+  "depth_summary": {
+    "count": 579,
+    "median_ft": 240.0,
+    "min_ft": 7.0,
+    "max_ft": 1505.0,
+    "scope": "Water-well source records excluding separate plugging reports; may include duplicate physical wells"
+  },
+  "sources": [
+    {
+      "name": "TWDB Submitted Drillers Reports",
+      "id": "SDR",
+      "url": "https://services.twdb.texas.gov/arcgis/rest/services/Public/WellReports/FeatureServer/0",
+      "record_count": 331,
+      "bounding_box_records": 389,
+      "matching_bulk_records": 331
+    },
+    {
+      "name": "TWDB Groundwater Database",
+      "id": "GWDB",
+      "url": "https://services.twdb.texas.gov/arcgis/rest/services/Public/TWDB_Groundwater_database/FeatureServer/0",
+      "record_count": 386,
+      "bounding_box_records": 501,
+      "matching_bulk_records": 386
+    },
+    {
+      "name": "TWDB Plugging Reports",
+      "id": "Plugging",
+      "url": "https://services.twdb.texas.gov/arcgis/rest/services/Public/PluggingReports/FeatureServer/0",
+      "record_count": 57,
+      "bounding_box_records": 63,
+      "matching_bulk_records": 57
+    }
+  ],
+  "limitations": [
+    "Counts describe source records, not unique physical wells; SDR and GWDB can document the same well. Plugging reports may also refer to a mapped well report.",
+    "Positive yield is historical reported flow, including driller estimates; it does not establish present capacity, sustainable yield, or safe drinking water.",
+    "Dry status requires explicit source wording; zero, negative, missing, or unparsed yields alone are not treated as dry. Capped for possible re-entry alone is not a dry outcome.",
+    "Plugged/abandoned status does not by itself explain the reason. Dry and historical yield evidence are preserved even where a plugging status takes precedence.",
+    "Springs, observation sites, test holes, oil/gas holes and surface-water records occur in the source databases; record type is retained.",
+    "SDR coordinates are unverified and may be wrong. Source coordinate datums and uncertainty vary; recorded coordinates are used as exposed by the TWDB map service.",
+    "GWDB and SDR are incomplete inventories; failed holes and older reports may be missing. This dataset cannot establish a drilling success rate.",
+    "No predictive probability or new-well depth is estimated. Well density and nearby depth patterns are observational evidence only.",
+    "Public Texas records cover only part of the 50-mile circle, which extends into Mexico.",
+    "Historical yields in manually reviewed GWDB remarks are included with original wording and dates. Other unparsed narratives remain visible as source evidence; no missing value is imputed."
+  ],
+  "classification_rules": {
+    "positive_yield": "A structured WellTest value has a positive numeric value/strictly positive lower bound, or manually reviewed source remarks explicitly report positive historical flow; estimates and spring flows are identified.",
+    "dry": "Explicit dry hole/well/borehole or dry water-level wording, or a WellTest yield value DRY.",
+    "plugged_abandoned": "Official plugging record, linked plugging report, declared plugging, GWDB Plugged or Destroyed use, or manually reviewed explicit abandonment/closure evidence.",
+    "unknown": "The retrieved evidence does not support one of the other categories."
+  },
+  "snapshot_started_at_utc": "2026-10-23T14:39:33.399509+00:00",
+  "snapshot_completed_at_utc": "2026-10-23T14:40:53.011333+00:00",
+  "built_at_utc": "2026-10-23T14:51:41.533843+00:00",
+  "snapshot_note": "Snapshot timestamps come from source-download file modification times; rebuilding cached files does not imply a fresh retrieval.",
+  "evidence_counts": {
+    "historical_positive_yield": 390,
+    "explicit_dry_evidence": 52,
+    "water_level_available": 473
+  },
+  "bulk_sources": [
+    {
+      "name": "SDRDownload.zip",
+      "url": "https://www.twdb.texas.gov/groundwater/data/SDRDownload.zip",
+      "retrieved_utc": "2026-10-23T14:39:39.547240+00:00",
+      "sha256": "8f4fb06c12182530d0c1fcf4badc565009114734fd188f981a765446aa849678"
+    },
+    {
+      "name": "GWDBDownload.zip",
+      "url": "https://www.twdb.texas.gov/groundwater/data/GWDBDownload.zip",
+      "retrieved_utc": "2026-10-23T14:39:38.063210+00:00",
+      "sha256": "9ffbadb0363c447a6da9f18135e9490a1300a0c3149b1e15926a00eb135936ea"
+    }
+  ]
+}

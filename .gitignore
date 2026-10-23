@@ -1,0 +1,21 @@
+# Local source archives, downloads and caches
+**/raw/
+downloads/
+**/__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+*.log
+*.partial
+*.zip
+*.tar.gz
+
+# Credentials, editor state and private hosting/project metadata
+.env
+.env.*
+!.env.example
+.openai/
+.sites-runtime/
+.DS_Store
+Thumbs.db
+project-pages.json

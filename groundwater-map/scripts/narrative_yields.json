@@ -1,0 +1,1305 @@
+[
+  {
+    "id": "GWDB-7344407",
+    "yield_raw": "30",
+    "method": "Reported",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Reported yield 30 GPM. Some oil in water.  Water in gray sand from 735 to 740 feet according to owner.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344406",
+    "yield_raw": "20",
+    "method": "Estimated",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Estimated yield 20 GPM. Oil in lower part of hole. Originally drilled to 800 feet and plugged back. Sulfate taste. Cemented from 0 to 28 feet.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344405",
+    "yield_raw": "52",
+    "method": "Measured",
+    "date": "1972",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 52 GPM in 1972. Cemented from 0 to 861 feet.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344401",
+    "yield_raw": "35",
+    "method": "Reported",
+    "date": "1963",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Originally drilled to 350 feet. Logged to 335 feet in 1976. Report- ted yield 35 GPM with 2 feet draw- downafter pumping 48 hours in 1963.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344104",
+    "yield_raw": "1",
+    "method": "Estimated",
+    "date": "1988",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Cigar Spring. Estimated flow of 1 GPM in 1988.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344103",
+    "yield_raw": "10",
+    "method": "Reported",
+    "date": "1988",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Originally drilled to 175 feet. Re- ported yield 10 GPM in 1988.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344102",
+    "yield_raw": "30",
+    "method": "Estimated",
+    "date": "1988",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 30 GPM in 1988.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344505",
+    "yield_raw": "40",
+    "method": "Jetted",
+    "date": "1984",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported jetted 40 GPM with no drawdown after 2 hours in 1984.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344201",
+    "yield_raw": "40",
+    "method": "Reported",
+    "date": "1988",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Limited use. Reported yield 40 GPM in 1988.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344203",
+    "yield_raw": "200",
+    "method": "Estimated",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 200 GPM in 1987.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344211",
+    "yield_raw": "20",
+    "method": "Estimated",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 20 GPM in 1987.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344507",
+    "yield_raw": "30",
+    "method": "Estimated",
+    "date": "1986",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 30 GPM in 1986. Cemented from 0 to 20 feet.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344205",
+    "yield_raw": "100",
+    "method": "Estimated",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 100 GPM in 1987.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344210",
+    "yield_raw": "20",
+    "method": "Estimated",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 20 GPM in 1987.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344204",
+    "yield_raw": "150",
+    "method": "Estimated",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 150 GPM in 1987.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344508",
+    "yield_raw": "30+",
+    "method": "Estimated",
+    "date": "1986",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Sulfate taste. Estimated yield 30+ GPM in 1986. Cemented from 0 to 20 feet.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344509",
+    "yield_raw": "30+",
+    "method": "Estimated",
+    "date": "1986",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 30+ GPM in 1986. Cemented from 0 to 20 feet.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344202",
+    "yield_raw": "30-35",
+    "method": "Jetted",
+    "date": "1979",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Sulfur taste. Reported jetted 30-35 GPM in 1979.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344208",
+    "yield_raw": "20",
+    "method": "Estimated",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 20 GPM in 1987.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344206",
+    "yield_raw": "30",
+    "method": "Estimated",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 30 GPM in 1987.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344209",
+    "yield_raw": "20",
+    "method": "Estimated",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 20 GPM in 1987.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344207",
+    "yield_raw": "30",
+    "method": "Estimated",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 30 GPM in 1987.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344501",
+    "yield_raw": "50",
+    "method": "Reported",
+    "date": "1961",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 50 GPM in 1961.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344510",
+    "yield_raw": "30",
+    "method": "Estimated",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 30 GPM in 1987.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344513",
+    "yield_raw": "40",
+    "method": "Reported",
+    "date": "1988",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 40 GPM in 1988. Cemented from 0 to 28 feet.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344502",
+    "yield_raw": "30",
+    "method": "Reported",
+    "date": "1943",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 30 GPM in 1943.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344516",
+    "yield_raw": "73",
+    "method": "Measured",
+    "date": "1969",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Cedar Spring. Measured flow 73 GPM in 1969. Formerly supplied Diamond Shamrock Chemical.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344101",
+    "yield_raw": "30",
+    "method": "Estimated",
+    "date": "1988",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 30 GPM in 1988.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344514",
+    "yield_raw": "70",
+    "method": "Estimated",
+    "date": "1988",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 70 GPM in 1988.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344512",
+    "yield_raw": "5",
+    "method": "Reported",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Reported yield 5 GPM.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344608",
+    "yield_raw": "10",
+    "method": "Estimated",
+    "date": "1966",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 10 GPM in 1966. Cemented from 0 to 4 feet.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344804",
+    "yield_raw": "10",
+    "method": "Reported",
+    "date": "1949",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 10 GPM in 1949. Reported yield 90 GPM with Centrifugal pump.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344804",
+    "yield_raw": "90",
+    "method": "Reported",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Reported yield 10 GPM in 1949. Reported yield 90 GPM with Centrifugal pump.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344610",
+    "yield_raw": "2-5",
+    "method": "Reported",
+    "date": "1988",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Maverick Spring. Reported flow 2 to 5 GPM in 1988.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344607",
+    "yield_raw": "50",
+    "method": "Jetted",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported jetted 50 GPM with no drawdown after 3 hours in 1987. Cemented from 0 to 10 feet.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7344301",
+    "yield_raw": "2",
+    "method": "Estimated",
+    "date": "1988",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Willow Spring.  Estimated flow 2 GPM in 1988.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7342907",
+    "yield_raw": "450",
+    "method": "Reported",
+    "date": "2001",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 450 GPM with 5 feet drawdown after pumping 36 hours in 2001.  MP= +2.10 feet",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7342906",
+    "yield_raw": "250",
+    "method": "Reported",
+    "date": "2001",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 250 GPM with 10 feet drawdown after pumping 36 hours in 2001. Specific capacity 25 GPM/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7342905",
+    "yield_raw": "250",
+    "method": "Reported",
+    "date": "2001",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 250 GPM with 10 feet drawdown after pumping 36 hours in 2001. Specific capacity 25 GPM/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7342904",
+    "yield_raw": "450",
+    "method": "Reported",
+    "date": "2001",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 450 GPM with 5 feet drawdown after pumping 36 hours in 2001. Sul Ross recorder well.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7342903",
+    "yield_raw": "400",
+    "method": "Reported",
+    "date": "2001",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 400 GPM with 6 feet drawdown after pumping 36 hours in 2001.  MP= +2.80 feet",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7334601",
+    "yield_raw": "20",
+    "method": "Estimated",
+    "date": "1977",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Owner's \"Tres Papalotes No. 1\" well. Estimated yield 20 GPM in 1977.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7328801",
+    "yield_raw": "4",
+    "method": "Bailed",
+    "date": "1976",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Three holes drilled in close proxi- mity. Location questionable. Bailed 4 GPM in 1976.",
+    "source_field": "Remarks",
+    "note": "Source describes three holes nearby and questionable location. This is source-record evidence, not a uniquely verified physical well."
+  },
+  {
+    "id": "GWDB-7352904",
+    "yield_raw": "30",
+    "method": "Reported",
+    "date": "1979",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 30 GPM with 45 feet drawdown after pumping 26 hours in 1979. Drilled for public supply. Not completed due to water quality. Specific capacity 0.67 GPM/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7352903",
+    "yield_raw": "5",
+    "method": "Reported",
+    "date": "1969",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Castolo maintenance well. Reported yield 5 GPM n 1969.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7352905",
+    "yield_raw": "30",
+    "method": "Reported",
+    "date": "1985",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 30 GPM with no drawdown in 1985. Cemented from 0 to 45 feet. Gravel packed.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7352902",
+    "yield_raw": "18",
+    "method": "Reported",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Reported yield 18 GPM.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7346701",
+    "yield_raw": "28",
+    "method": "Measured",
+    "date": "1953",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 28 GPM in 1953. Reported yield 180 GPM in 1987. supplies water for Chisos Basin area.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7346701",
+    "yield_raw": "180",
+    "method": "Reported",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 28 GPM in 1953. Reported yield 180 GPM in 1987. supplies water for Chisos Basin area.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7333202",
+    "yield_raw": "20",
+    "method": "Reported in remarks",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "At Big Bend Ranch headquarters. 20 gpm / 2.59 ft drawdown = 7.7 gpm/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7347401",
+    "yield_raw": "7",
+    "method": "Measured",
+    "date": "1979",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 7 GPM in 1979. Reported yield 18 GPM in 1987. Supplies water to park headquarters complex.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7347401",
+    "yield_raw": "18",
+    "method": "Reported",
+    "date": "1987",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 7 GPM in 1979. Reported yield 18 GPM in 1987. Supplies water to park headquarters complex.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7347504",
+    "yield_raw": "12",
+    "method": "Reported",
+    "date": "1969",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 12 GPM in 1969; 8 GPM in 1988.  Supplies water to park headquarters complex",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7347504",
+    "yield_raw": "8",
+    "method": "Reported",
+    "date": "1988",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 12 GPM in 1969; 8 GPM in 1988.  Supplies water to park headquarters complex",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7347505",
+    "yield_raw": "15",
+    "method": "Reported",
+    "date": "1969",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 15 GPM in 1969; 18 GPM in 1988. Supplies water to park headquarters complex.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7347505",
+    "yield_raw": "18",
+    "method": "Reported",
+    "date": "1988",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 15 GPM in 1969; 18 GPM in 1988. Supplies water to park headquarters complex.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7440201",
+    "yield_raw": "1",
+    "method": "Estimated",
+    "date": "2017-04-24",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "4/24/2017 flow about 1 gpm. Sampled by Brian Hunt.",
+    "source_field": "Remarks",
+    "note": "Source says about 1 gpm; numerical value is approximate."
+  },
+  {
+    "id": "GWDB-7448101",
+    "yield_raw": "3-4",
+    "method": "Measured",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 3-4 GPM, conductance 440 at 25 degrees C in 1974. Casa Moreno.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439903",
+    "yield_raw": "5",
+    "method": "Reported",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 5 GPM with conduct- ance of 2800 in 1974. Originally measured 36 feet deep.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439601",
+    "yield_raw": "3-4",
+    "method": "Estimated",
+    "date": "1974-06-17",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 3-4 GPM, 6-17-74; field specific conductance 2400 umho/cm, 27 degrees C. Abandoned windmill at old Quintella Ranch.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439902",
+    "yield_raw": "890",
+    "method": "Measured",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 890 GPM with 11.2 feet drawdown after pumping 12 hours in 1974. Specific capacity 79 GPM/ft. Inaccessible in 2005.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439904",
+    "yield_raw": "100",
+    "method": "Reported",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 100 GPM with 66 feet drawdown after pumping 10 hours in 1974. Specific capacity 1.5 GPM/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439803",
+    "yield_raw": "15",
+    "method": "Reported",
+    "date": "1981",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 15 GPM with 68 feet drawdown after pumping 4 hours in 1981. Specific capacity 0.2 GPM/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439802",
+    "yield_raw": "6-8",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 6-8 GPM with a field specific conductance 2400 in 1974.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439517",
+    "yield_raw": "25",
+    "method": "Jetted",
+    "date": "1986",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported jetted 25 GPM with 3 feet drawdown after 2 hours in 1986. Specific capacity 8.3 GPM/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7431602",
+    "yield_raw": "5",
+    "method": "Estimated pumping rate",
+    "date": "2017-04-22",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Windmill near Botella Camp. 4/22/2017: Well draw down 10.5 feet after 25 mins. pumping est. 5 gpm Est. specific capacity 5/10.5= 0.48 gpm/ft.  Well also used for livestock.  PUWCD GOES Recorder installed 1/12/25",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439504",
+    "yield_raw": "40",
+    "method": "Bailed",
+    "date": "1964",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported bailed 40 GPM in 1964.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439505",
+    "yield_raw": "15",
+    "method": "Reported",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 15 GPM in 1974. Obstruction in wellbore at 51 feet in 2005.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439202",
+    "yield_raw": "70",
+    "method": "Reported",
+    "date": "1993",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 70 GPM with 100 feet drawdown after pumping 36 hours in 1993. Specific capacity 0.7 GPM/ft. Estimated transmissivity 83.5 sqft/day. Estimated hydraulic cond- uctivity 1.0 ft/day.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439201",
+    "yield_raw": "12",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 12 GPM in 1974. Well is on southeast edge of old airstrip. Obstruction in wellbore at 45 feet in 2005. Drill date estimated at +/- 1957. May have been reworked at that time since there is a water level from 1949.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7431501",
+    "yield_raw": "3-4",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 3-4 GPM in 1974. Estrada well at entrance to Big Bend Park.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7439102",
+    "yield_raw": "12-14",
+    "method": "Estimated",
+    "date": "1974-07-17",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 12-14 GPM, 7-17-74; field specific conductance 1050 umho/cm, 24 degrees C.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7424401",
+    "yield_raw": "15",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "\"Alamo\" springs (southeast area); 15 GPM estimated yield in 1974; field specific conductance 550 umho/cm, 25 degrees C.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7431201",
+    "yield_raw": "3",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "\"Gavino\" Mill; estimated yield 3 GPM in 1974.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7431402",
+    "yield_raw": "5-6",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated flow 5-6 GPM with cond- ance of 450 at 26 degrees C in 1974. Measured flow of .005 cfs or 2.5 GPM in 2005. Spring on north side of Terneros Creek.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7431402",
+    "yield_raw": "2.5",
+    "method": "Measured",
+    "date": "2005",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated flow 5-6 GPM with cond- ance of 450 at 26 degrees C in 1974. Measured flow of .005 cfs or 2.5 GPM in 2005. Spring on north side of Terneros Creek.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7416803",
+    "yield_raw": "0.36",
+    "method": "Reported",
+    "date": "2003",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Vasquez well. Reported yield 0.36 GPM with 18 feet drawdown after 157 recovery in 2003. Specific capacity 0.02 GPM/ft. T = 3.01 gpd/ft. Aquifer test by LBG. No test data in TWDB files.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7416801",
+    "yield_raw": "36",
+    "method": "Reported",
+    "date": "1930",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Old Santa Fe RR stockyard well. Reported flow 36 GPM in 1930. Rep- orted flow 28 GPM in 1958. Geophys- ical log Q-6.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7416801",
+    "yield_raw": "28",
+    "method": "Reported",
+    "date": "1958",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Old Santa Fe RR stockyard well. Reported flow 36 GPM in 1930. Rep- orted flow 28 GPM in 1958. Geophys- ical log Q-6.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7324803",
+    "yield_raw": "5-10",
+    "method": "Reported in remarks",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "TD estimated at 450' located near Henderson windmill (Collapsed?) 5-10 gpm.",
+    "source_field": "Remarks",
+    "note": "Source gives 5-10 gpm without test date; its estimate of 450 feet is a separate depth statement."
+  },
+  {
+    "id": "GWDB-7423601",
+    "yield_raw": "22",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "\"Alamo\" springs; 22 GPM estimated yield in 1974; field specific conductance 550 umho/cm, 25 degrees C.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7423602",
+    "yield_raw": "12-15",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "\"Cottonwood\" springs; 12-15 GPM estimated yield in 1974; field specific conductance 600 umho/cm, 25 degrees C.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7431701",
+    "yield_raw": "10.7+",
+    "method": "Estimated",
+    "date": "2005",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Upper spring on Palo Blanco Arroyo. Estimated minimum flow of 0.024 cfs or 10.7 GPM in 2005.",
+    "source_field": "Remarks",
+    "note": "Source calls this estimated minimum flow, so 10.7 is a reported lower bound."
+  },
+  {
+    "id": "GWDB-7430906",
+    "yield_raw": "7",
+    "method": "Estimated",
+    "date": "2005",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Lower spring on Palo Blanco Arroyo. Field WQ= ph-8.6,Temp- 19.9 degrees C, Cond- 663 and eh= -109 in 2005. Flow estimated from tank to creek- bed at 7 GPM and from creekbed at 32 GPM in 2005.",
+    "source_field": "Remarks",
+    "note": "Two flow observations at the spring/tank/creekbed system in 2005; do not sum or treat as independent drilled wells."
+  },
+  {
+    "id": "GWDB-7430906",
+    "yield_raw": "32",
+    "method": "Estimated",
+    "date": "2005",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Lower spring on Palo Blanco Arroyo. Field WQ= ph-8.6,Temp- 19.9 degrees C, Cond- 663 and eh= -109 in 2005. Flow estimated from tank to creek- bed at 7 GPM and from creekbed at 32 GPM in 2005.",
+    "source_field": "Remarks",
+    "note": "Two flow observations at the spring/tank/creekbed system in 2005; do not sum or treat as independent drilled wells."
+  },
+  {
+    "id": "GWDB-7309401",
+    "yield_raw": "6.4",
+    "method": "Reported",
+    "date": "2003",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "House well. Reported yield 6.4 GPM with 114 feet drawdown after pump- ing 4 hours in 2003. Specific cap- acity 0.056 GPM/ft. T=17.58 gpd/ft. Aquifer test by LBG. Test results in TWDB files.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7249503",
+    "yield_raw": "25",
+    "method": "Reported",
+    "date": "1969",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Rio Grande Village Spring No.4. Reported flow 25 GPM in 1969.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430902",
+    "yield_raw": "5",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 5 GPM in 1974; good-quality water reported. Well was drilled in 1950s. Exact drill date is unknown.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7416602",
+    "yield_raw": "1.61",
+    "method": "Reported",
+    "date": "2003",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Honey well. Reported yield 1.61 GPM with 34 feet drawdown after recov- ering for 195 minutes in 2003. Specific capacity 0.06 GPM/ft. T = 9.87 gpd/ft. Aquifer test by LBG. No test data in TWDB files.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7423801",
+    "yield_raw": "6",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Old Ocotillo siding well; 6 GPM estimated yield in 1974; field specific conductance 750 umho/cm, 16 degrees C.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430901",
+    "yield_raw": "90",
+    "method": "Measured",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 90 GPM with conduct- ance of 500 in 1974.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430601",
+    "yield_raw": "600",
+    "method": "Reported",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "South well of 2. Reported yield 600 GPM in 1974. Inaccessible in 2004.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430301",
+    "yield_raw": "40",
+    "method": "Reported",
+    "date": "1949",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "North well of 2; originally drilled to 125 feet and cased to 120 feet; 40 GPM yield reported in 1949.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430804",
+    "yield_raw": "33",
+    "method": "Measured",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 33 GPM in 1974 with field specific conductance 450.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430805",
+    "yield_raw": "22",
+    "method": "Reported",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Improved spring. Reported yield 22 GPM in 1974.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430606",
+    "yield_raw": "1400",
+    "method": "Reported",
+    "date": "1999",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Owner's Well #8. Reported yield 1400 GPM with 133 feet drawdown after pumping 36 hours in 1999. Specific capacity 10.5 GPM/ft. Aquifer test and results in TWDB files.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7309101",
+    "yield_raw": "100",
+    "method": "Reported",
+    "date": "1973",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 100 GPM with 31 feet drawdown after pumping 4 hours in 1973. Specific capacity 3.23 GPM/- ft. Estimated transmissivity 502.63 sqft/day. Estimated hydraulic cond- uctivity 55.85 ft/day.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430604",
+    "yield_raw": "350",
+    "method": "Pumped",
+    "date": "1991",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Well #6. Originally drilled to 715 feet. Reported pumped 350 GPM with 40 feet drawdown in 1991. Specific capacity 8.75 GPM/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430607",
+    "yield_raw": "1150",
+    "method": "Reported",
+    "date": "2001",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 1150 GPM with 147 feet drawdown after pumping 36 hours in 2001. Specific capacity 7.8 GPM/ft. Aquifer test data and results in TWDB files.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430810",
+    "yield_raw": "15",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 15 GPM in 1974.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7416302",
+    "yield_raw": "20",
+    "method": "Estimated",
+    "date": "2001",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "House well. Estimated yield 20 GPM in 2001.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430803",
+    "yield_raw": "800",
+    "method": "Reported",
+    "date": "1961",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Unused irrigation well; 800 GPM reported in 1961, 6-inch pump. 15 foot diameter.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7422902",
+    "yield_raw": "5-6",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Originally drilled to 410 feet; 5-6 GPM yield estimated in 1974; reported drilled mostly through hard conglomerate.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430807",
+    "yield_raw": "8",
+    "method": "Measured",
+    "date": "1974-06-15",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 8 GPM, 6-15-74.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7416201",
+    "yield_raw": "15",
+    "method": "Estimated",
+    "date": "2001",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Deer Camp well. Estimated yield 15 GPM in 2001.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7416301",
+    "yield_raw": "30",
+    "method": "Reported",
+    "date": "1930",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Plata siding well. Reported flow 30 GPM in 1930. Measured flow 35 GPM in 1958. Formerly supplied locomo- tives. Reported flow of +/- 70 GPM in 2003. Well reconditioned in March 2004. Reported flow 38.5 GPM on 3/23/04.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7416301",
+    "yield_raw": "35",
+    "method": "Measured",
+    "date": "1958",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Plata siding well. Reported flow 30 GPM in 1930. Measured flow 35 GPM in 1958. Formerly supplied locomo- tives. Reported flow of +/- 70 GPM in 2003. Well reconditioned in March 2004. Reported flow 38.5 GPM on 3/23/04.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7416301",
+    "yield_raw": "+/- 70",
+    "method": "Reported approximate",
+    "date": "2003",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Plata siding well. Reported flow 30 GPM in 1930. Measured flow 35 GPM in 1958. Formerly supplied locomo- tives. Reported flow of +/- 70 GPM in 2003. Well reconditioned in March 2004. Reported flow 38.5 GPM on 3/23/04.",
+    "source_field": "Remarks",
+    "note": "Source explicitly reports plus/minus 70; retain approximation rather than presenting exact 70."
+  },
+  {
+    "id": "GWDB-7416301",
+    "yield_raw": "38.5",
+    "method": "Reported",
+    "date": "2004-03-23",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Plata siding well. Reported flow 30 GPM in 1930. Measured flow 35 GPM in 1958. Formerly supplied locomo- tives. Reported flow of +/- 70 GPM in 2003. Well reconditioned in March 2004. Reported flow 38.5 GPM on 3/23/04.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430802",
+    "yield_raw": "800",
+    "method": "Reported",
+    "date": "1961",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Used as standby irrigation supply; originally dug and cased to 30 feet 800 GPM reported yield in 1961, 6-inch pump. 15 foot diameter.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430703",
+    "yield_raw": "400",
+    "method": "Reported",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "South well of 2; 400 GPM yield reported in 1974, 6-inch pump; field specific conductance 3000 umho/cm, 21.5 degrees C.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430705",
+    "yield_raw": "500",
+    "method": "Reported",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 500 GPM in 1974, 8- inch pump; field specific conduct- ance 1300 umho/cm, 22 degrees C.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430202",
+    "yield_raw": "2",
+    "method": "Reported",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Unused stock well \"Red Tank\" mill; Reported yield 2 GPM and poor- quality water when used. Inaccess- ible in 2004.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430426",
+    "yield_raw": "800",
+    "method": "Reported",
+    "date": "1961",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Originally driven and cased to 30 ft; 800 GPM reported yield in 1961, good-quality water reported.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430433",
+    "yield_raw": "20",
+    "method": "Reported",
+    "date": "1981",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 20 GPM with no draw- down after pumping 42 hours in 1981. Specific capacity 20 GPM/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430408",
+    "yield_raw": "20",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Owner's north well.  Yield estimat- ed at 20 GPM in 1974.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430422",
+    "yield_raw": "783",
+    "method": "Measured",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 783 GPM with 14.5 feet drawdown after pumping 40 hours in 1974. Specific capacity 54 GPM/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430201",
+    "yield_raw": "7",
+    "method": "Reported",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Reported yield 7 GPM and good- quality water. Bees in well in in 2004. Unable to approach.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430401",
+    "yield_raw": "20",
+    "method": "Reported",
+    "date": "1949",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Formerly used as standby supply for Presidio; 20 GPM yield reported in 1949.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7423102",
+    "yield_raw": "1",
+    "method": "Reported",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Unused stock well, good-quality water; only 1 GPM yield reported.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430420",
+    "yield_raw": "12",
+    "method": "Estimated",
+    "date": "1974-04-19",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Southwest well of 2; estimated yield 12 GPM, 4-19-74; field specific conductance of bailed sample 800 umho/cm.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430203",
+    "yield_raw": "6",
+    "method": "Reported",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Unused stock well; 6 GPM yield and good-quality water reported.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430407",
+    "yield_raw": "275",
+    "method": "Reported",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Owner's well #1. Reported yield 275 GPM. Formerly belonged to the Santa Fe Railroad. Used to fill trucks.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430418",
+    "yield_raw": "500",
+    "method": "Reported",
+    "date": "1973-08-23",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Original depth 24 ft.  Reported yield 500 GPM, 8-23-73, 6-inch discharge pipe.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430409",
+    "yield_raw": "15",
+    "method": "Reported",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Owner's south well.  Yield reported at 15 GPM in 1974.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430419",
+    "yield_raw": "10",
+    "method": "Measured",
+    "date": "1973",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 10 GPM in 1973. Des- troyed.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430706",
+    "yield_raw": "1000",
+    "method": "Reported",
+    "date": "1963",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 1000 GPM with 12 feet drawdown in 1963. Specific capacity 83 GPM/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430205",
+    "yield_raw": "5-10",
+    "method": "Estimated",
+    "date": "2003",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Replaced by 204. Reported estimated yield 5-10 GPM with 2 feet drawdown after jetting 1 hour in 2003.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430403",
+    "yield_raw": "500-600",
+    "method": "Reported",
+    "date": "1973",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Originally dug to 50 feet. Reported yield 500-600 GPM in 1973.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430404",
+    "yield_raw": "250",
+    "method": "Reported",
+    "date": "1961",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Unused irrigation well; reported yield 250 GPM in 1961. 15 foot dia- meter.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430416",
+    "yield_raw": "350",
+    "method": "Reported",
+    "date": "1974-06-21",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 350 GPM, 6-21-74.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430425",
+    "yield_raw": "500",
+    "method": "Reported",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Reported yield 500 GPM.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430417",
+    "yield_raw": "500",
+    "method": "Reported",
+    "date": "1973-03-21",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 500 GPM, 3-21-73.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7422801",
+    "yield_raw": "6-7",
+    "method": "Estimated",
+    "date": "1974-02-17",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Originally drilled and cased to 190 ft; 6-7 GPM estimated yield, 2-17- 74; field specific conductance 450 umho/cm, 22 degrees C. Twin Mills.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7430423",
+    "yield_raw": "15",
+    "method": "Reported",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported yield 15 GPM in 1974.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7429602",
+    "yield_raw": "200",
+    "method": "Reported",
+    "date": "1961",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Unused irrigation well. Originally dug and rock-lined to 60 feet. Reported yield 200 GPM in 1961.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7307502",
+    "yield_raw": "3",
+    "method": "Measured",
+    "date": "1976-05",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured discharge by Brune in May 1976 at 3 GPM.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-5260801",
+    "yield_raw": "15",
+    "method": "Bailed",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Reported bailed 15 GPM with 20 feet drawdown in 1974. Specific capacity 0.75 GPM/ft. Estimated transmiss- ivity 90.4 sqft/day. Estimated hyd- raulic conductivity 1.3 ft/day.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7429601",
+    "yield_raw": "800",
+    "method": "Reported",
+    "date": null,
+    "date_note": "Observation date not unambiguously stated",
+    "evidence": "Field specific conductance 4000 umho/cm, 21 degrees C; 6-inch discharge pipe; 800 GPM reported yield. 15 feet diameter.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7429611",
+    "yield_raw": "15",
+    "method": "Estimated",
+    "date": "1973",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Originally dug to 60 feet. Estimat- ed yield 15 GPM, Conductance - 4700 at 77 degrees F in 1973.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7429604",
+    "yield_raw": "340",
+    "method": "Measured",
+    "date": "1973",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Measured yield 340 GPM with 12.9 feet drawdown after pumping 20 hours in 1973. Specific capacity 26.3 GPM/ft.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7429609",
+    "yield_raw": "35",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 35 GPM in 1974; field specific conductance 3800 umho/cm, 28 degrees C.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-5261801",
+    "yield_raw": "0.5",
+    "method": "Measured",
+    "date": "1957-08-28",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Spring Q-15 in TBWE B-6111. Measur- ed flow 0.5 GPM August 28, 1957. Shuler Spring on topo.",
+    "source_field": "Remarks"
+  },
+  {
+    "id": "GWDB-7422502",
+    "yield_raw": "3",
+    "method": "Estimated",
+    "date": "1974",
+    "date_note": "Date explicitly attached to this narrative observation; precision retained",
+    "evidence": "Estimated yield 3 GPM in 1974; field specific conductance 500 umho/cm, 22 degrees C.",
+    "source_field": "Remarks"
+  }
+]

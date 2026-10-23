@@ -1,0 +1,112 @@
+{
+  "checked_at": "2026-10-23",
+  "intro": "Three places I would start comparing land, water evidence, and road access. Numbers show a search order, not a drilling score.",
+  "areas": [
+    {
+      "id": "ocotillo-mesa",
+      "rank": 1,
+      "name": "Ocotillo Mesa / Gate 4",
+      "angle": "First stop · water evidence + access",
+      "color": "#4c6d9b",
+      "bounds": [[29.39, -103.55], [29.45, -103.49]],
+      "center": [29.416, -103.517],
+      "summary": "My first scouting stop north of Study Butte. Look for a larger tract with a straightforward road approach near the documented wells; the small listing is a price reference, not the full land-development opportunity.",
+      "water_summary": "Several drilling reports show 80–120 gallons/minute at 182–368 feet in 2007–2020. A 2026 report shows 30 gallons/minute at 402 feet. All are reported while jetting during drilling, with no sustained pump-test duration supplied.",
+      "access_summary": "Highway 118 approach via Ocotillo Mesa and Gate 4 roads. The Gate 4 listing advertises less than one mile from the highway; the final approach is a private road.",
+      "caution": "Results vary within this box: other records report only 2–8 gallons/minute. The Gate 4 example is about $5,914/acre, so this is the water-first search, not the cheapest acreage. No listed parcel has verified water from this screen.",
+      "records": [
+        {"id": "SDR-101544", "label": "80+ gpm · 260 ft · jetted · 2007"},
+        {"id": "SDR-524776", "label": "120 gpm · 242 ft · jetted · 2019"},
+        {"id": "SDR-558084", "label": "100 gpm · 182 ft · jetted · 2020"},
+        {"id": "SDR-720307", "label": "30 gpm · 402 ft · jetted · 2026"},
+        {"id": "SDR-425246", "label": "Lower-yield comparison: 2 gpm · 402 ft · 2016"},
+        {"id": "SDR-702940", "label": "Lower-yield comparison: 8 gpm · 400 ft · 2025"}
+      ],
+      "listings": [
+        {
+          "title": "Gate 4 Road · 11.16 acres",
+          "price": 66000,
+          "acres": 11.16,
+          "price_per_acre": 5913.98,
+          "url": "https://www.landsearch.com/properties/gate-4-rd-terlingua-tx-79852/5245929",
+          "lat": 29.4212,
+          "lon": -103.4935,
+          "location_note": "Approximate listing map point, not a surveyed boundary.",
+          "access": "Seller advertises less than one mile to Highway 118 and an easy road approach. Private caliche road is reported in the listing details.",
+          "water_note": "The seller's claim about a good well area is unverified. No on-parcel producing well is established by this research.",
+          "availability_note": "Advertised active when checked October 23, 2026. MLS 174613."
+        }
+      ]
+    },
+    {
+      "id": "ghost-town",
+      "rank": 2,
+      "name": "Ghost Town / Long Draw",
+      "angle": "Near Ghost Town · larger-tract idea",
+      "color": "#a06831",
+      "bounds": [[29.30, -103.66], [29.38, -103.58]],
+      "center": [29.3245, -103.6202],
+      "summary": "The location-led candidate for a home base and future land sales. Proximity to Ghost Town could appeal to visitors and buyers even before water is solved. Long Draw has an advertised 393-acre tract off FM 170; any tourism or resale upside remains a business hypothesis.",
+      "water_summary": "One utility well recorded 375 gallons/minute during a 36-hour pump test in 1999, at 1,160 feet deep. Its GWDB and SDR entries describe the same well. This is historical evidence of a large source in the district.",
+      "access_summary": "FM 170 is the paved approach; the example is accessed by Long Draw Road. Internal roads, entrances, and crossings need a site visit.",
+      "caution": "The existing utility well is not a supply offered with the land. Other nearby records document unsuitable water. The example costs $975,000 for land alone, leaving water development as an additional expense.",
+      "records": [
+        {"id": "GWDB-7344408", "label": "375 gpm · 1,160 ft · 36-hour pump test · 1999"},
+        {"id": "GWDB-7344409", "label": "Second utility well · 1,151 ft · yield not supplied"},
+        {"id": "GWDB-7344403", "label": "Historical abandonment · water described as unsuitable for drinking"},
+        {"id": "GWDB-7344407", "label": "30 gpm reported · source notes some oil in water"}
+      ],
+      "listings": [
+        {
+          "title": "26885 Long Draw Road · 393 acres",
+          "price": 975000,
+          "acres": 393,
+          "price_per_acre": 2480.92,
+          "url": "https://www.land.com/property/393-acres-in-brewster-county-texas/24964442/",
+          "lat": 29.3192,
+          "lon": -103.6388,
+          "location_note": "Approximate listing point from LandSearch, not the boundaries of the 393 acres.",
+          "access": "Advertised north of FM 170 between Ghost Town and Lajitas, via Long Draw Road. Power easements are advertised; installed power is not established.",
+          "water_note": "No water source is established for this parcel. The nearby historical utility test does not transfer to this land.",
+          "availability_note": "Advertised active when checked October 23, 2026. MLS 163273."
+        }
+      ]
+    },
+    {
+      "id": "north-corazones",
+      "rank": 3,
+      "name": "Ranch Road east / North Corazones",
+      "angle": "Cheaper acreage · mixed water evidence",
+      "color": "#725a8f",
+      "bounds": [[29.43, -103.44], [29.515, -103.34]],
+      "center": [29.479, -103.379],
+      "summary": "My lower-price comparison, east toward Terlingua Ranch Lodge. Look along the paved part of Ranch Road and nearby feeders, prioritizing a property with an existing well that can be tested.",
+      "water_summary": "Three 2020–2021 drilling reports show 65–100 gallons/minute at depths of 120, 300, and 435 feet. These are jetting observations with no sustained test duration supplied. The same broad area also contains explicit dry-hole records.",
+      "access_summary": "The 40-acre example advertises frontage on both sides of paved Terlingua Ranch Road. Properties farther along local feeder roads can have a very different approach.",
+      "caution": "Dry holes at 500 and 682 feet, plus a 1,005-foot plugged dry hole, make this a mixed search area. The listing is roughly 1.4–2.4 straight-line miles from the three highlighted positive reports; none proves water on that parcel.",
+      "records": [
+        {"id": "SDR-582336", "label": "100 gpm · 120 ft · jetted · 2021"},
+        {"id": "SDR-542067", "label": "100 gpm · 435 ft · jetted · 2020"},
+        {"id": "SDR-597595", "label": "65 gpm · 300 ft · jetted · 2021"},
+        {"id": "SDR-463185", "label": "Documented dry hole · 500 ft · 2017"},
+        {"id": "SDR-388857", "label": "Documented dry well · 682 ft · 2015"},
+        {"id": "SDR-215945", "label": "Plugged dry hole · 1,005 ft · 2010"}
+      ],
+      "listings": [
+        {
+          "title": "907 Terlingua Ranch Road · 40 acres",
+          "price": 55000,
+          "acres": 40,
+          "price_per_acre": 1375,
+          "url": "https://www.landsearch.com/properties/907-terlingua-ranch-rd-terlingua-tx-79852/4949599",
+          "lat": 29.5077,
+          "lon": -103.3768,
+          "location_note": "Approximate listing map point. This is east toward the lodge, not at the Highway 118 junction.",
+          "access": "Seller advertises paved county-road frontage, fiber, and electricity nearby.",
+          "water_note": "No producing well on the parcel has been verified. Nearby positive reports and dry holes are shown separately.",
+          "availability_note": "Advertised active when checked October 23, 2026. MLS 165058."
+        }
+      ]
+    }
+  ]
+}
