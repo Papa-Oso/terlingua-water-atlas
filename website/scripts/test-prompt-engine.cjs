@@ -48,4 +48,15 @@ assert.match(engine.build(), /Ask me for a place and country/);
 assert.equal(engine.topics.length, 8);
 assert.equal(engine.tasks.length, 4);
 
+function submissionArea(generatedPrompt) {
+  const link = generatedPrompt.match(/https:\/\/water-atlas\.surefawn18\.chatgpt\.site\/#submit\?area=([^\s]*)/);
+  assert.ok(link, 'Every research prompt must include its return link.');
+  return decodeURIComponent(link[1]);
+}
+assert.equal(submissionArea(engine.build({ area: 'x'.repeat(279) + '😀' })), 'x'.repeat(279), 'The size limit must not split a surrogate pair.');
+assert.equal(submissionArea(engine.build({ area: 'x'.repeat(278) + '😀' })), 'x'.repeat(278) + '😀', 'An emoji fitting within the limit must be retained.');
+assert.equal(submissionArea(engine.build({ area: '😀'.repeat(200) })), '😀'.repeat(140), 'Area labels remain bounded in UTF-16 units without losing Unicode validity.');
+assert.equal(submissionArea(engine.build({ area: 'Río #1 & 湖 😀' })), 'Río #1 & 湖 😀');
+assert.equal(submissionArea(engine.build({ area: 'Broken \ud800 and \udc00' })), 'Broken \ufffd and \ufffd', 'Malformed input must not break prompt generation.');
+
 console.log('Prompt engine: deterministic output, geography, task selection, limits, plain text and missing-data checks passed.');

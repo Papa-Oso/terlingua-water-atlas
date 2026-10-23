@@ -29,7 +29,16 @@
 
   function cleanArea(value) {
     if (typeof value !== 'string') return '';
-    return value.replace(/[\u0000-\u001f\u007f-\u009f\u200b-\u200f\u202a-\u202e\u2066-\u2069]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 280);
+    const cleaned = value.replace(/[\u0000-\u001f\u007f-\u009f\u200b-\u200f\u202a-\u202e\u2066-\u2069]/g, ' ').replace(/\s+/g, ' ').trim();
+    let result = '';
+    // Keep the existing size bound without splitting an emoji/surrogate pair.
+    // Replace already malformed UTF-16 so the submission URL remains encodable.
+    for (const character of cleaned) {
+      const safe = character.length === 1 && /[\ud800-\udfff]/.test(character) ? '\ufffd' : character;
+      if (result.length + safe.length > 280) break;
+      result += safe;
+    }
+    return result;
   }
 
   // Objects accept {lat, lng} or {lat, lon}; arrays follow GeoJSON [longitude, latitude].
@@ -97,7 +106,11 @@ sources.json: An array with no more than ${limit} records. For each include:
 
 README.md: Summarize the most useful sources, access methods, gaps, conflicting evidence and the next small task. Identify AI-assisted work and checks actually performed. Do not mark the package community-reviewed or an entire county fully covered because a few sources were found.
 
-Finish with a short checklist for a human reviewer. Produce the draft and stop. I will decide whether and how to submit it to Water Atlas.`;
+Finish with a short checklist for a human reviewer and a single copyable Markdown report containing the area, summary, original source URLs, findings, checks actually performed and remaining gaps. Include the structured sections above in that report when useful.
+
+I can paste your report into the Water Atlas submission form:
+https://water-atlas.surefawn18.chatgpt.site/#submit?area=${encodeURIComponent(area)}
+The form prepares an unreviewed GitHub issue for me to review and post. Produce the draft and stop. Do not submit or publish it for me.`;
   }
 
   root.WaterAtlasPrompts = Object.freeze({ build, topics, tasks });

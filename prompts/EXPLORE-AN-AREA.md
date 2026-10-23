@@ -47,3 +47,7 @@ Return a small proposed package with these files, or clearly marked equivalent s
 If testing a connector, include a bounded reproducible request or short script with its dependencies, expected output and any operator-supplied credential requirement. Use placeholders for credentials. Explain which machine runs it and any potential usage charges. Do not claim that a proposed script has been tested unless you ran it successfully.
 
 Finish with a checklist of what a human reviewer should verify before proposing the package to the project. Produce the draft and stop; I will decide whether and how to submit it.
+
+## Bring the results back
+
+Ask your AI for one copyable Markdown report with the area, source URLs, findings, actual checks and remaining gaps. Paste it into [Submit findings](https://water-atlas.surefawn18.chatgpt.site/#submit). The website prepares an unreviewed GitHub issue; you review and post it yourself. A GitHub account is needed for that final step. Longer reports can be copied or downloaded in full. Accepted evidence reaches the county map only after review and a published update.

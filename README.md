@@ -6,13 +6,15 @@ Open-source software and a shared source catalog for finding water information, 
 
 The [operating model](docs/OPERATING-MODEL.md) defines this commitment. The [roadmap](docs/ROADMAP.md) describes the first connector-based version: find sources, retrieve evidence on demand, show its dates and changes, and optionally schedule checks on the user's own machine. AI would help people find and understand evidence through tools they control.
 
-The static [community coverage website](website/dist/index.html) shows information depth on a world map, with U.S. county shading and a **Help map this area** prompt builder. Brewster and Presidio counties are the first partial collections, centered on the Terlingua study area. Color describes published information, not water availability. Search for a county or country, or enter any area to create a research prompt for your own AI or tools. See the [coverage guide](docs/COMMUNITY-MAP.md).
+The static [community coverage website](https://water-atlas.surefawn18.chatgpt.site/) shows information depth on a world map, with U.S. county shading and a **Help map this area** prompt builder. Brewster and Presidio counties are the first partial collections, centered on the Terlingua study area. Color describes published information, not water availability. Search for a county or country, or enter any area to create a research prompt for your own AI or tools. See the [coverage guide](docs/COMMUNITY-MAP.md).
+
+**Found something useful?** [Submit your findings](https://water-atlas.surefawn18.chatgpt.site/#submit): paste your AI's result or your own notes, then open a prepared GitHub issue for review. The website requires no account or AI key; GitHub requires an account to post. A submission only changes the map after evidence review, a repository update and a separate static deployment. See [how to contribute](CONTRIBUTING.md) or the [maintainer review guide](docs/REVIEW-CONTRIBUTIONS.md).
 
 ## What exists and what comes next
 
 | Available now | Planned first version |
 | --- | --- |
-| Static world map, county and country search, and browser-only contribution prompts | Additional regional collections and a validated region-package importer |
+| Static world map, county and country search, contribution prompts and a GitHub submission handoff | Additional regional collections and a validated region-package importer |
 | Local Terlingua map and searchable source library | Reusable connectors with geographic coverage and access instructions |
 | Dated JSON, CSV and GeoJSON snapshots | On-demand retrieval with local caching and explicit freshness status |
 | Manual acquisition, audit and source-download scripts | Optional user-managed scheduling and AI tool integration |

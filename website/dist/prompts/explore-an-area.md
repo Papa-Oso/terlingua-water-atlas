@@ -2,7 +2,7 @@
 
 Copy the prompt below into an AI tool you control and replace the bracketed values. Start with one area, one or two topics and at most ten sources. The prompt produces a contribution draft; it does not require a Water Atlas account or hosted AI service. People can use the same instructions for manual research.
 
-The proposed contribution format below is a research handoff, not an implemented importer or a replacement for the existing Terlingua snapshot API. See [CONTRIBUTING.md](https://github.com/Papa-Oso/terlingua-water-atlas/blob/codex/initial-public-release/CONTRIBUTING.md) before submitting changes.
+The proposed contribution format below is a research handoff, not an implemented importer or a replacement for the existing Terlingua snapshot API. See [CONTRIBUTING.md](../CONTRIBUTING.md) before submitting changes.
 
 ---
 
@@ -47,3 +47,7 @@ Return a small proposed package with these files, or clearly marked equivalent s
 If testing a connector, include a bounded reproducible request or short script with its dependencies, expected output and any operator-supplied credential requirement. Use placeholders for credentials. Explain which machine runs it and any potential usage charges. Do not claim that a proposed script has been tested unless you ran it successfully.
 
 Finish with a checklist of what a human reviewer should verify before proposing the package to the project. Produce the draft and stop; I will decide whether and how to submit it.
+
+## Bring the results back
+
+Ask your AI for one copyable Markdown report with the area, source URLs, findings, actual checks and remaining gaps. Paste it into [Submit findings](https://water-atlas.surefawn18.chatgpt.site/#submit). The website prepares an unreviewed GitHub issue; you review and post it yourself. A GitHub account is needed for that final step. Longer reports can be copied or downloaded in full. Accepted evidence reaches the county map only after review and a published update.

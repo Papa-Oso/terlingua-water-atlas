@@ -34,14 +34,14 @@ Bundled Natural Earth world geography and U.S. Census county boundaries have sou
 2. Choose a bounded task: find sources, verify access instructions, test retrieval, or review an existing collection.
 3. Copy or download the generated prompt with the selected place, topics, task and source limit. The [starter research prompt](../prompts/EXPLORE-AN-AREA.md) is also available as a plain file.
 4. Run it using the visitor's own AI or research tools. Manual contributions are equally welcome; an AI subscription is not required.
-5. Inspect the result and submit a small source package or correction through a repository issue or pull request. Mark AI-produced work as an unreviewed draft.
-6. Community maintainers review evidence and publish an update. The founder is not required to personally research, review or fund every region, and review availability is not guaranteed.
+5. Inspect the result, then use [Submit findings](https://water-atlas.surefawn18.chatgpt.site/#submit) to paste it and prepare a GitHub issue. Short submissions can be prefilled; larger results can be copied into the issue or downloaded. Visitors review and post the issue themselves, using their GitHub account. The website needs no account or AI key. The [research issue template](https://github.com/Papa-Oso/terlingua-water-atlas/issues/new?template=county-research.md) is a direct alternative.
+6. Community maintainers check the unreviewed draft, publish accepted sources and update `website/dist/data/coverage.json` in a reviewed pull request. They then deploy the static website separately; submissions and merged changes do not automatically update the live map. The [maintainer guide](REVIEW-CONTRIBUTIONS.md) describes the fields, level requirements and checks. Review availability is not guaranteed.
 
 Useful contributions can be small: one working endpoint, a corrected URL, a clearer access instruction or a documented gap. Finding sources, writing connectors and reviewing evidence are distinct tasks; contributors do not need to do everything before helping.
 
 ## Static delivery and costs
 
-The website renders versioned region and source metadata from ordinary files. Map navigation, county/country search and prompt generation run entirely in the visitor's browser. Reviewed repository updates publish a new coverage snapshot. This needs no Water Atlas account system, hosted AI, central query database or always-running research service.
+The website renders versioned region and source metadata from ordinary files. Map navigation, county/country search, prompt generation and preparation of submission text run entirely in the visitor's browser. Opening a prepared link sends its prefilled text to GitHub; an issue is created only when the visitor posts it there. Reviewed repository updates supply the next coverage snapshot, which a maintainer publishes through a separate static deployment. This needs no Water Atlas account system, hosted AI, central query database or always-running research service.
 
 External map services and original source links retain their own access terms. Static hosting, a domain and an optional external donation link are choices of the website operator. A separately funded hosted edition may later offer additional services, but local research, the catalog and contribution files must remain independently usable.
 

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-23",
+  "counties": [
+    {
+      "fips": "48043",
+      "name": "Brewster County",
+      "state": "Texas",
+      "country": "United States",
+      "origin": "terlingua_case_study",
+      "level": "organized",
+      "published_at": "2026-10-23",
+      "coverage": "partial",
+      "summary": "A first window into the groundwater and public water records of the Big Bend region.",
+      "scope": "Partial county coverage within 50 miles of Terlingua. Source records may refer to the same physical well. This is a dated snapshot; live connectors are still planned.",
+      "collection_url": "case-study/groundwater-map/dist/",
+      "evidence_urls": [
+        "https://services.twdb.texas.gov/arcgis/rest/services/Public/TWDB_Groundwater_database/FeatureServer/0",
+        "https://services.twdb.texas.gov/arcgis/rest/services/Public/WellReports/FeatureServer/0",
+        "https://services.twdb.texas.gov/arcgis/rest/services/Public/PluggingReports/FeatureServer/0"
+      ],
+      "metrics": {"source_records": 443, "water_well_records": 408},
+      "topics": [
+        {"name": "Groundwater & wells", "label": "Snapshot", "status": "available"},
+        {"name": "Public documents", "label": "Sources", "status": "available"},
+        {"name": "Rivers, rights & imagery", "label": "Help expand", "status": "needed"}
+      ]
+    },
+    {
+      "fips": "48377",
+      "name": "Presidio County",
+      "state": "Texas",
+      "country": "United States",
+      "origin": "terlingua_case_study",
+      "level": "organized",
+      "published_at": "2026-10-23",
+      "coverage": "partial",
+      "summary": "The Terlingua study includes records in part of Presidio County. Help connect more of its local evidence.",
+      "scope": "Partial county coverage within 50 miles of Terlingua. Source records may refer to the same physical well. This is a dated snapshot; live connectors are still planned.",
+      "collection_url": "case-study/groundwater-map/dist/",
+      "evidence_urls": [
+        "https://services.twdb.texas.gov/arcgis/rest/services/Public/TWDB_Groundwater_database/FeatureServer/0",
+        "https://services.twdb.texas.gov/arcgis/rest/services/Public/WellReports/FeatureServer/0",
+        "https://services.twdb.texas.gov/arcgis/rest/services/Public/PluggingReports/FeatureServer/0"
+      ],
+      "metrics": {"source_records": 331, "water_well_records": 255},
+      "topics": [
+        {"name": "Groundwater & wells", "label": "Snapshot", "status": "available"},
+        {"name": "Public documents", "label": "Sources", "status": "available"},
+        {"name": "Rivers, rights & imagery", "label": "Help expand", "status": "needed"}
+      ]
+    }
+  ]
+}

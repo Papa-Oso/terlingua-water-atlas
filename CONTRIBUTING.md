@@ -2,6 +2,16 @@
 
 Help make Water Atlas useful to people and AI tools that need traceable water information. Contributions from local residents, utility operators, hydrogeologists, water engineers, data researchers and software developers are welcome. Terlingua is the first case study, and source/connector improvements should be reusable elsewhere.
 
+## Share what you found
+
+1. Use **Help map this area** on the [Water Atlas website](https://water-atlas.surefawn18.chatgpt.site/) to prepare a prompt. Run it with your own AI or research tools; manual research is equally welcome.
+2. [Submit findings](https://water-atlas.surefawn18.chatgpt.site/#submit) by naming the area and pasting your result. Include original source links and dates where possible, and disclose AI assistance. A few useful sources are enough.
+3. Open the prepared GitHub issue, check its public contents and post it. Short submissions can be prefilled. For longer results, copy the prepared text into the issue or download it for later. GitHub requires an account to post; the website does not require an account, API key or paid AI service.
+
+You can also use the [County or area research issue template](https://github.com/Papa-Oso/terlingua-water-atlas/issues/new?template=county-research.md) directly. No coding, repository fork or pull request is required to suggest sources. Do not include private information or credentials.
+
+Submissions start as **unreviewed drafts**. They do not automatically change county colors. Maintainers check the evidence, add accepted sources and coverage metadata in a pull request, and publish a new static website version. Review availability is not guaranteed. The [review guide](docs/REVIEW-CONTRIBUTIONS.md) explains this process and the difference between accepting a source and awarding the map's **Reviewed** level.
+
 ## Independence and operating costs
 
 Follow the [operating model](docs/OPERATING-MODEL.md): Water Atlas must remain useful without any service operated or funded by its founder.
@@ -17,7 +27,7 @@ For connector or AI changes, explain which machine runs the work, which accounts
 
 ## Useful contributions
 
-For a new area, start with the [area-research prompt](prompts/EXPLORE-AN-AREA.md) and the [community coverage plan](docs/COMMUNITY-MAP.md). A few well-supported sources are useful; you do not need to build every connector. AI-generated packages are drafts until reviewed. An issue or pull request can document unverified access or missing evidence without claiming the area is complete.
+For a new area, start with the [area-research prompt](prompts/EXPLORE-AN-AREA.md) and the [community coverage guide](docs/COMMUNITY-MAP.md). A few well-supported sources are useful; you do not need to build every connector. AI-generated packages are drafts until reviewed. An issue or pull request can document unverified access or missing evidence without claiming the area is complete.
 
 - Correct a location, measurement, source link or evidence classification.
 - Find a missing public report or a more recent version of an existing source.
@@ -58,6 +68,17 @@ python scripts/check_repository.py
 ```
 
 See the [maintenance method](docs/MAINTENANCE.md) for source discovery, retrieval, review and publication, and the [API instructions](docs/API.md) for the public interface. Generated API files should change with their reviewed source inputs.
+
+For contribution-flow or county-coverage changes, run:
+
+```sh
+node --check website/dist/submission-engine.js
+node --check website/dist/submission.js
+node website/scripts/test-submission-engine.cjs
+node website/scripts/check-coverage.cjs
+```
+
+The [maintainer review guide](docs/REVIEW-CONTRIBUTIONS.md) covers evidence acceptance, county metadata and the separate static publication step. Automated checks do not approve research or award a coverage level.
 
 For interface changes, check the map, filters, record details, table and export in a browser. Keep source attribution visible. Explain the validation performed in the pull request, along with any known limitations. Do not label a cached rebuild as a new retrieval; preserve the actual snapshot date.
 
