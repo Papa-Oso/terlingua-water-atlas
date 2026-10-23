@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0.0",
+  "preparedOn": "2026-10-23",
+  "coordinateReferenceSystem": "WGS 84 longitude, latitude (EPSG:4326; RFC 7946 GeoJSON)",
+  "purpose": "Geographic navigation and grouping of contributed information. Geometry does not indicate water availability, water rights, or research coverage.",
+  "layers": [
+    {
+      "file": "world.geojson",
+      "title": "Natural Earth Admin 0 countries, 1:110m",
+      "publisher": "Natural Earth",
+      "version": "5.1.1",
+      "sourcePage": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+      "downloadUrl": "https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip",
+      "retrievedOn": "2026-10-23",
+      "downloadSha256": "0f243aeac8ac6cf26f0417285b0bd33ac47f1b5bdb719fd3e0df37d03ea37110",
+      "license": "Public domain",
+      "licenseUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "attribution": "Made with Natural Earth.",
+      "sourceCrs": "EPSG:4326",
+      "featureId": "Natural Earth ADM0_A3 (not always an ISO country code)",
+      "modifications": [
+        "Converted Shapefile to GeoJSON and retained selected identifying properties.",
+        "Reduced coordinates to a 0.0001-degree precision grid with valid polygon topology; oriented outer rings counterclockwise."
+      ],
+      "limitations": [
+        "Generalized world map: small countries and islands may be absent.",
+        "Natural Earth uses de facto boundaries. Geometry is not a statement about sovereignty or legal boundaries.",
+        "Antarctica closes along the South Pole from longitude +180 to -180; render in an appropriate projection."
+      ],
+      "features": 177,
+      "bytes": 226241,
+      "sha256": "9215401937de07aa76e0bf94c37fb59348ae129213997b1a08f83fd746d0c2cc"
+    },
+    {
+      "file": "us-counties.geojson",
+      "title": "2025 Cartographic Boundary File, County and Equivalent for United States, 1:5m",
+      "publisher": "U.S. Census Bureau, Geography Division",
+      "boundaryDate": "2025-01-01",
+      "catalogPublicationDate": "2026-05-01",
+      "sourcePage": "https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2025.html",
+      "catalogUrl": "https://catalog.data.gov/dataset/2025-cartographic-boundary-file-shp-county-and-equivalent-for-united-states-1-5000000",
+      "downloadUrl": "https://www2.census.gov/geo/tiger/GENZ2025/shp/cb_2025_us_county_5m.zip",
+      "retrievedOn": "2026-10-23",
+      "downloadSha256": "faec522080681e79be5be435c981009a77891206ff8a7f1d142f3bf5da9ebd74",
+      "license": "CC0 1.0 (as listed in the official data.gov catalog); U.S. government geographic data",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "County boundaries: U.S. Census Bureau, 2025 cartographic boundary files.",
+      "sourceCrs": "EPSG:4269 (NAD83)",
+      "featureId": "Five-character Census GEOID (state FIPS plus county FIPS); preserve leading zeros.",
+      "modifications": [
+        "Converted Shapefile to GeoJSON and retained county/equivalent names, Census GEOIDs, state names and codes.",
+        "Transformed from NAD83 to WGS 84 with PROJ via pyproj using longitude, latitude axis order.",
+        "Reduced coordinates to a 0.0001-degree precision grid with valid polygon topology; oriented outer rings counterclockwise.",
+        "Added an interior representative point to each feature for navigation."
+      ],
+      "limitations": [
+        "Small-scale generalized boundaries, not parcel boundaries or survey data.",
+        "Includes county equivalents and U.S. territories.",
+        "Antimeridian-separated islands can make a feature-wide bounding box span most of the world; use its representative center for navigation.",
+        "County outlines do not assert that information has been collected across an entire county."
+      ],
+      "features": 3235,
+      "bytes": 5227981,
+      "sha256": "8930a6e802eb053f961d7b2dca2f0bf389a30f55e45f93d8abf07cbea08bacb9"
+    }
+  ],
+  "testArea": {
+    "name": "Brewster County, Texas",
+    "countyId": "48043",
+    "countyBounds": [
+      -103.8007,
+      28.9721,
+      -102.3207,
+      30.6659
+    ],
+    "countyCenter": [
+      -103.0849,
+      29.8103
+    ],
+    "terlinguaPoint": [
+      -103.616,
+      29.3216
+    ],
+    "terlinguaPointInsideCounty": true
+  },
+  "validation": {
+    "uniqueFeatureIds": true,
+    "nonEmptyValidPolygons": true,
+    "allCountyRingLongitudeStepsUnder180Degrees": true
+  },
+  "creditsNote": "These geographic source datasets retain their own public-domain terms; an application code license does not replace source attribution and provenance."
+}

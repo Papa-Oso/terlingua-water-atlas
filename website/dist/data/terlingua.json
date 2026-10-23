@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "id": "terlingua",
+  "name": "Terlingua",
+  "county": "Brewster",
+  "state": "Texas",
+  "country": "United States",
+  "lat": 29.3216,
+  "lon": -103.616,
+  "radius_miles": 50,
+  "snapshot_date": "2026-10-23",
+  "catalog_as_of": "2026-10-23",
+  "regional_record_count": 774,
+  "water_well_record_count": 663,
+  "source_count": 353,
+  "record_count_unit": "Source records; multiple records can describe one physical well.",
+  "source_count_unit": "Entries in the regional public-source catalog; these are not allocated by county.",
+  "source_groups": {
+    "Utility": 47,
+    "County": 152,
+    "State": 25,
+    "Regulatory and groundwater district": 121,
+    "Public data portals": 2,
+    "Water use reports": 6
+  },
+  "county_counts": [
+    {
+      "name": "Brewster",
+      "state": "Texas",
+      "country": "United States",
+      "fips": "48043",
+      "source_record_count": 443,
+      "water_well_record_count": 408,
+      "source_counts": {
+        "GWDB": 150,
+        "Plugging": 38,
+        "SDR": 255
+      },
+      "scope": "Source county labels for records within the Terlingua 50-mile study circle; partial county coverage."
+    },
+    {
+      "name": "Presidio",
+      "state": "Texas",
+      "country": "United States",
+      "fips": "48377",
+      "source_record_count": 331,
+      "water_well_record_count": 255,
+      "source_counts": {
+        "GWDB": 236,
+        "Plugging": 19,
+        "SDR": 76
+      },
+      "scope": "Source county labels for records within the Terlingua 50-mile study circle; partial county coverage."
+    }
+  ],
+  "missing_county_record_count": 0,
+  "coverage_note": "Partial coverage: the well-record snapshot is limited to Texas records within 50 miles of Terlingua Ghost Town, crossing parts of Brewster and Presidio counties. The circle also reaches Mexico, where this collection has no well-record coverage. Highlighted counties are navigation areas, not a claim of complete county research.",
+  "freshness_note": "Published snapshot from 2026-10-23. No live feed, automated monitoring, or currently tested connector is claimed by this website.",
+  "coverage_meaning": "Map colors describe information indexed by Water Atlas, not water availability, water quality, drilling prospects, ownership, or access rights.",
+  "links": {
+    "map": "case-study/groundwater-map/dist/",
+    "library": "case-study/research/",
+    "wells": "case-study/groundwater-map/dist/data/wells.json",
+    "catalog": "case-study/research/catalog.json",
+    "api_docs": "https://github.com/Papa-Oso/terlingua-water-atlas/blob/codex/initial-public-release/docs/API.md"
+  },
+  "topics": [
+    {
+      "id": "groundwater",
+      "name": "Wells & groundwater",
+      "status": "snapshot_available",
+      "label": "Mapped snapshot",
+      "detail": "774 source records from three TWDB datasets; 663 describe water wells. Historical evidence and missing values are retained.",
+      "connector_status": "Not assessed for live operation",
+      "source_urls": [
+        "https://services.twdb.texas.gov/arcgis/rest/services/Public/WellReports/FeatureServer/0",
+        "https://services.twdb.texas.gov/arcgis/rest/services/Public/TWDB_Groundwater_database/FeatureServer/0",
+        "https://services.twdb.texas.gov/arcgis/rest/services/Public/PluggingReports/FeatureServer/0"
+      ]
+    },
+    {
+      "id": "documents",
+      "name": "Studies & water systems",
+      "status": "catalog_available",
+      "label": "Sources indexed",
+      "detail": "353 regional catalog entries across utility, county, state, regulatory, portal and water-use groups; review levels vary.",
+      "connector_status": "Not assessed for live operation"
+    },
+    {
+      "id": "rights",
+      "name": "Rights & access",
+      "status": "sources_listed",
+      "label": "Some documents listed",
+      "detail": "Groundwater district rules and related documents are indexed. No complete register of rights, easements, river access or current permit status has been assembled.",
+      "connector_status": "Not assessed for live operation",
+      "source_ids": [
+        "regulatory-002",
+        "regulatory-013"
+      ],
+      "source_urls": [
+        "https://www.brewstercountygcd.com/rulesfeescheduleandbylaws",
+        "https://www.brewstercountygcd.com/s/District-Rules-Dec-2025-final.pdf"
+      ]
+    },
+    {
+      "id": "rivers",
+      "name": "Rivers & flow",
+      "status": "pending",
+      "label": "Help needed",
+      "detail": "A river-gauge connector and dated flow observations are not included in this case study.",
+      "connector_status": "Not implemented"
+    },
+    {
+      "id": "imagery",
+      "name": "River change & imagery",
+      "status": "pending",
+      "label": "Help needed",
+      "detail": "Dated imagery, channel comparisons and a repeatable change-review method are not included in this case study.",
+      "connector_status": "Not implemented"
+    }
+  ],
+  "provenance": {
+    "map_metadata": "case-study/groundwater-map/dist/data/summary.json",
+    "catalog": "case-study/research/catalog.json",
+    "counts_method": "Count the published wells array by its county field and the catalog records array. County assignments are source labels, not a new spatial classification."
+  }
+}

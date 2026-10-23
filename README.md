@@ -6,18 +6,19 @@ Open-source software and a shared source catalog for finding water information, 
 
 The [operating model](docs/OPERATING-MODEL.md) defines this commitment. The [roadmap](docs/ROADMAP.md) describes the first connector-based version: find sources, retrieve evidence on demand, show its dates and changes, and optionally schedule checks on the user's own machine. AI would help people find and understand evidence through tools they control.
 
-The planned [community coverage map](docs/COMMUNITY-MAP.md) will highlight contributed areas and invite visitors to help index places they care about. Color will show documented coverage, not water availability. Start contributing with the [copyable area-research prompt](prompts/EXPLORE-AN-AREA.md), using your own AI or research tools.
+The static [community coverage website](website/dist/index.html) shows information depth on a world map, with U.S. county shading and a **Help map this area** prompt builder. Brewster and Presidio counties are the first partial collections, centered on the Terlingua study area. Color describes published information, not water availability. Search for a county or country, or enter any area to create a research prompt for your own AI or tools. See the [coverage guide](docs/COMMUNITY-MAP.md).
 
 ## What exists and what comes next
 
 | Available now | Planned first version |
 | --- | --- |
+| Static world map, county and country search, and browser-only contribution prompts | Additional regional collections and a validated region-package importer |
 | Local Terlingua map and searchable source library | Reusable connectors with geographic coverage and access instructions |
 | Dated JSON, CSV and GeoJSON snapshots | On-demand retrieval with local caching and explicit freshness status |
 | Manual acquisition, audit and source-download scripts | Optional user-managed scheduling and AI tool integration |
 | Original-source links and evidence limitations | River history and rights/access research connected by place and date |
 
-The current release is a research snapshot and supporting tools. Live connector services, an AI question interface and a scheduler are not implemented. A static project website may explain the project and accept donations; any future hosted edition would have a separate funded budget and remain optional. No donation collection or hosted edition is configured by this repository.
+The current release is a research snapshot, static website and supporting tools. Live connector services, an AI question interface and a scheduler are not implemented. The website needs no application backend or paid AI service. Any future hosted edition would have a separate funded budget and remain optional. No donation collection or hosted edition is configured by this repository.
 
 This independent project supports residents, researchers, utilities and anyone interested in water evidence. Sources retain their own access terms and availability; a local installation still needs internet access to retrieve new information from publishers.
 
@@ -45,7 +46,7 @@ Use Python 3.11 or newer. From the repository root:
 python -m http.server 8765 --bind 127.0.0.1
 ```
 
-Open the [map](http://localhost:8765/groundwater-map/dist/) or [source library](http://localhost:8765/research/). This serves the downloaded files on your own computer; no cloud server or project account is required. Leaflet and the well snapshot are bundled; no npm install or build is required. Map backgrounds, regional overlays and original source links need internet access.
+Open the [community website](http://localhost:8765/website/dist/), [well map](http://localhost:8765/groundwater-map/dist/) or [source library](http://localhost:8765/research/). This serves the downloaded files on your own computer; no cloud server or project account is required. No npm install or build is required. The community website bundles its world and U.S. county geography; its search and prompt builder run locally in the browser. Well-map backgrounds, regional overlays and original source links need internet access. See [website/README.md](website/README.md) for the portable static website.
 
 ## Use the data
 

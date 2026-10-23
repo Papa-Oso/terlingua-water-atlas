@@ -4,7 +4,7 @@ Build a local tool that helps people and AI find water information, retrieve it 
 
 ## Starting point
 
-The repository already contains a Terlingua well map, a source catalog, reviewed findings, static API exports and scripts for selected downloads and snapshot builds. These are useful fixtures and examples. They are not a live water service, a general connector system or an AI assistant. The milestones below describe work still to build.
+The repository already contains a Terlingua well map, a source catalog, reviewed findings, static API exports and scripts for selected downloads and snapshot builds. A static community website adds a world overview, U.S. county information-depth shading, browser-local county/country search and contribution prompts for any area. Brewster and Presidio counties show partial organized snapshots. These are useful fixtures and examples; live retrieval, a general connector system and an AI assistant remain to build. The milestones below describe that work.
 
 ## 1. Make the source directory portable
 
@@ -51,7 +51,7 @@ Combine source search, a map and a timeline. Let someone select an area, discove
 
 ## Release boundary
 
-An optional static [community coverage website](COMMUNITY-MAP.md) can develop alongside the local tools. It will highlight published regional collections, show topic-specific readiness and dates, and offer copyable prompts for researching an unindexed area. Terlingua starts as a dated source collection; its color must not imply that the planned live connectors already exist. The [starter research prompt](../prompts/EXPLORE-AN-AREA.md) is available now; the interactive website and its region-package importer are not implemented.
+The optional static [community coverage website](COMMUNITY-MAP.md) is implemented alongside the local tools. It highlights published regional collections, shows topic details and dates, and offers copyable prompts for researching an area. County colors progress through Not indexed, Sources listed, Organized, Connected and Reviewed; the initial Terlingua collection is partial and organized, without claiming live connectors or independent review of the whole collection. The [starter research prompt](../prompts/EXPLORE-AN-AREA.md) is also available as a plain file. A validated region-package importer and additional regional collections remain to build.
 
 Version one succeeds when this workflow runs on a user's computer with documented resource controls. It does not promise exhaustive coverage, automatic legal determinations, real-time monitoring while offline, or a funded public AI service. Donation setup, founder-operated application services, full imagery archives and continuous global monitoring are outside this release. The optional static coverage website must not become a requirement for local use.
 

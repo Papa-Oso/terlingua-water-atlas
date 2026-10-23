@@ -1,0 +1,53 @@
+{
+  "as_of": "2026-10-23",
+  "scope": "Study Butte utility; Brewster County grants and meetings; TWDB projects/plans/programs; groundwater district publications; selected regulatory records; targeted public portal records.",
+  "statistics": {
+    "as_of": "2026-10-23",
+    "source_entries": 367,
+    "archived_entries": 358,
+    "unique_urls": 363,
+    "unique_original_files": 358,
+    "unique_file_contents": 356,
+    "archived_bytes": 392024495,
+    "by_group": {
+      "Utility": {
+        "entries": 47,
+        "archived": 47
+      },
+      "County": {
+        "entries": 152,
+        "archived": 152
+      },
+      "State": {
+        "entries": 25,
+        "archived": 25
+      },
+      "Regulatory and groundwater district": {
+        "entries": 126,
+        "archived": 121
+      },
+      "Public data portals": {
+        "entries": 11,
+        "archived": 7
+      },
+      "Water use reports": {
+        "entries": 6,
+        "archived": 6
+      }
+    },
+    "validation_errors": []
+  },
+  "gaps": [
+    "Not everything ever publicly released: county pre-2024 archives, CivicClerk attachments/videos and the courthouse environmental review record are not comprehensively captured.",
+    "County archive contains 45 image-only documents not fully searched. Some groundwater district PDFs and utility tariff/older CCR pages are also image-only. A search with no result is not proof of absence.",
+    "TCEQ wastewater technical package was identified through public search but original download failed. The Drinking Water Viewer shell is archived, not a complete export of current system results/violations.",
+    "IRS Form990 HTML reconstructions from ProPublica are archived for FY2023–2025; original XML/PDF endpoints were inaccessible. These are tax filings, not the separately referenced 2025 audit.",
+    "Actual TWDB 2024 and2025 water-use reports are archived, including raw intake and retail consumption. They do not establish current whole-system sustainable additional yield, treated production/reject volumes, treatment headroom or an expansion cost estimate. Raw intake minus retail is not a leakage estimate.",
+    "An environmental clearance, grant approval, agenda item and proposed schedule are different evidence states. None alone proves construction completion or spare capacity.",
+    "Aquifer conceptual-model presentation located; final technical report, supporting datasets, quantitative recharge budget and sustainable pumping analysis remain unverified.",
+    "Water-use surveys label the raw source Igneous Aquifer. Actual well logs must resolve the source formation before applying the Santa Elena conceptual model to utility yield.",
+    "TWDB mapped retail service area is not a parcel-level service promise or necessarily the legally certificated boundary. Portal query status fields are not compliance findings.",
+    "No organization contacted, records request filed, application submitted or commitment made. All saved material was publicly accessible at retrieval."
+  ],
+  "distribution_note": "Counts and byte totals below describe the original local research snapshot, not the contents of this public Git repository. Refer to catalog.json for the selected public-source entries."
+}

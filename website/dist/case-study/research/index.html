@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Terlingua source library · Water Atlas</title>
+  <style>
+    :root{color-scheme:light;--ink:#203c36;--muted:#506c63;--paper:#f4f1e9;--line:#d4ddd5;--accent:#176654;--ochre:#aa762d}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:1200px;margin:auto;padding:40px 28px 64px}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}
+    .topline{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.14em;font-weight:750;margin-top:42px}
+    h1{font-size:clamp(32px,5vw,52px);line-height:1.08;letter-spacing:-.035em;max-width:850px;margin:12px 0 20px}p{max-width:850px}.intro{font-size:19px;color:var(--muted)}
+    .note{background:#fff9ec;border-left:4px solid var(--ochre);padding:16px 20px;margin:28px 0;max-width:none}.note p{margin:0}.controls{display:grid;grid-template-columns:1fr 260px;gap:16px;margin:30px 0 10px}
+    label{display:block;font-size:13px;font-weight:700;margin-bottom:7px}input,select{width:100%;font:inherit;color:var(--ink);background:white;border:1px solid #91a69a;border-radius:6px;padding:12px}
+    input:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #ce9d47;outline-offset:3px}.status{color:var(--muted);font-size:14px;margin:16px 0}
+    .records{display:grid;gap:12px}.record{background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px 22px}.record-head{display:flex;gap:20px;align-items:start;justify-content:space-between}
+    h2{font-size:18px;line-height:1.35;margin:6px 0 8px}.tag{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}.source-link{white-space:nowrap;font-size:14px;font-weight:700;margin-top:5px}
+    .meta,.review{font-size:13px;color:var(--muted);margin:5px 0}.review{max-width:900px}.details{margin-top:12px;font-size:13px}summary{cursor:pointer;color:var(--accent)}dl{margin:10px 0 0;display:grid;grid-template-columns:120px 1fr;gap:5px 14px}dt{font-weight:600}dd{margin:0;overflow-wrap:anywhere}.empty{padding:32px;background:white;border:1px dashed #91a69a;border-radius:8px}footer{border-top:1px solid var(--line);margin-top:36px;padding-top:20px;color:var(--muted);font-size:13px}.error{border-color:#a45b37;color:#723d26}code{font-size:.9em}
+    @media(max-width:680px){main{padding:24px 16px 40px}.eyebrow{margin-top:30px}.controls{grid-template-columns:1fr}.record{padding:17px}.record-head{display:block}.source-link{display:inline-block;margin-top:9px}dl{grid-template-columns:1fr;gap:2px}dd{margin-bottom:9px}.intro{font-size:17px}}
+  </style>
+</head>
+<body>
+<main>
+  <nav class="topline" aria-label="Project navigation"><a href="../../">← Water Atlas world map</a><a href="../groundwater-map/dist/">← Explore the map</a><a href="https://github.com/Papa-Oso/terlingua-water-atlas/blob/codex/initial-public-release/docs/API.md">Data API &amp; instructions</a><a href="catalog.json">Download source catalog (JSON)</a></nav>
+  <div class="eyebrow">Water Atlas / Terlingua source library</div>
+  <h1>Start with what is already known.</h1>
+  <p class="intro">Reports, public meeting records, utility information and water-use evidence for the Terlingua area. Follow each source to its publisher and check the review notes before drawing conclusions.</p>
+  <p id="snapshot" class="meta">Loading the source catalog…</p>
+  <aside class="note"><p><strong>A source catalog is a starting point.</strong> Records have different review levels, and some are scanned or unavailable. A funding award is not proof of completed work; historical pumping is not proof of sustainable additional supply. This library links to original records. Only selected water-use reports are bundled here; the full research archive is not included.</p></aside>
+  <form class="controls" id="filters" role="search">
+    <div><label for="query">Search the evidence</label><input id="query" type="search" placeholder="Try aquifer, water use, 2026 or Study Butte" autocomplete="off"></div>
+    <div><label for="group">Source group</label><select id="group"><option value="">All groups</option></select></div>
+  </form>
+  <p id="status" class="status" role="status" aria-live="polite"></p>
+  <section id="records" class="records" aria-label="Matching sources"></section>
+  <noscript><p class="empty">Enable JavaScript to search this catalog, or open <a href="catalog.json">the JSON catalog</a> directly.</p></noscript>
+  <footer><p>Original material remains subject to its publisher’s terms. Source dates, retrieval notes and historical file hashes support verification; they do not imply current availability or independent validation. The project is an independent research effort.</p><p>To retrieve a small local selection, run <code>python scripts/download_sources.py</code> from the project directory. It lists records first; add <code>--download</code> to fetch them.</p></footer>
+</main>
+<script>
+"use strict";
+const query = document.querySelector("#query");
+const group = document.querySelector("#group");
+const output = document.querySelector("#records");
+const status = document.querySelector("#status");
+let rows = [];
+const display = value => Array.isArray(value) ? value.join("; ") : String(value ?? "");
+function element(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text !== undefined) node.textContent = display(text);
+  return node;
+}
+function sourceLink(value) {
+  try {
+    const url = new URL(value);
+    if (url.protocol !== "https:" || url.username || url.password) return null;
+    const link = element("a", "source-link", "Open publisher source ↗");
+    link.href = url.href;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    return link;
+  } catch { return null; }
+}
+function render() {
+  const terms = query.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
+  const found = rows.filter(row => (!group.value || row.group === group.value) && terms.every(term => row.searchText.includes(term)));
+  status.textContent = `${found.length.toLocaleString()} of ${rows.length.toLocaleString()} catalog entries`;
+  const fragment = document.createDocumentFragment();
+  for (const row of found) {
+    const article = element("article", "record");
+    const head = element("div", "record-head");
+    const title = element("div");
+    title.append(element("div", "tag", row.group || "Source record"), element("h2", "", row.title || row.id));
+    head.append(title);
+    const link = sourceLink(row.url);
+    if (link) head.append(link);
+    article.append(head, element("p", "meta", [row.publisher, row.document_date ? `Document: ${row.document_date}` : "Document date not established"].filter(Boolean).join(" · ")));
+    if (row.review_status) article.append(element("p", "review", row.review_status));
+    if (row.retrieval_note) article.append(element("p", "review", row.retrieval_note));
+    const details = element("details", "details");
+    details.append(element("summary", "", "Provenance and limits"));
+    const list = element("dl");
+    const metadata = [["Catalog ID", row.id], ["Source URL", row.url], ["Retrieved", row.retrieved_date], ["Reference format", row.original_extension], ["Source status", row.status], ["Limits", row.limits], ["Reference SHA-256", row.sha256]];
+    for (const [label, value] of metadata) {
+      if (value === undefined || value === null || value === "") continue;
+      list.append(element("dt", "", label), element("dd", "", value));
+    }
+    details.append(list);
+    article.append(details);
+    fragment.append(article);
+  }
+  if (!found.length) fragment.append(element("p", "empty", "No matching records. Try a broader search or choose all groups."));
+  output.replaceChildren(fragment);
+}
+document.querySelector("#filters").addEventListener("submit", event => event.preventDefault());
+query.addEventListener("input", render);
+group.addEventListener("change", render);
+fetch("catalog.json", {cache: "no-cache"})
+  .then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
+  .then(catalog => {
+    if (!Array.isArray(catalog.records)) throw new Error("Unexpected catalog format");
+    rows = catalog.records.map(row => ({...row, searchText: [row.id, row.title, row.group, row.publisher, row.document_date, row.retrieved_date, row.review_status, row.retrieval_note, row.url].map(display).join(" ").toLocaleLowerCase()}));
+    [...new Set(rows.map(row => row.group).filter(Boolean))].sort().forEach(value => group.add(new Option(value, value)));
+    document.querySelector("#snapshot").textContent = `Research snapshot: ${catalog.as_of || "see individual records"}. ${catalog.scope || "Public sources for regional water research."}`;
+    render();
+  })
+  .catch(error => {
+    document.querySelector("#snapshot").textContent = "The catalog could not be loaded.";
+    status.textContent = "Source library unavailable";
+    const warning = element("div", "empty error");
+    warning.append(element("p", "", "Open this page through the project’s local web server so the browser can load catalog.json. You can also read the JSON file directly."));
+    const link = element("a", "", "Open the source catalog"); link.href = "catalog.json"; warning.append(link);
+    output.replaceChildren(warning);
+    console.error("Catalog load failed:", error.message);
+  });
+</script>
+</body>
+</html>

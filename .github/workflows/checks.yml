@@ -24,5 +24,8 @@ jobs:
         run: |
           node --check groundwater-map/dist/app.js
           node --check groundwater-map/dist/areas.js
+          node --check website/dist/app.js
+      - name: Check community contribution prompts
+        run: node website/scripts/test-prompt-engine.cjs
       - name: Preview source retrieval without network requests
         run: python3 scripts/download_sources.py --group State --limit 2
