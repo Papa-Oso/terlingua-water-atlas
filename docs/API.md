@@ -2,6 +2,22 @@
 
 Use the same public evidence behind the map and source library in your own research, map or application. This API consists of versioned **read-only snapshot files**. It needs no account, API key or database. Download a file and filter it in your application; URL query parameters do not filter the response.
 
+These are the Terlingua case-study exports in Water Atlas. Every file is included in `api/v1/` in a downloaded checkout. The public URLs are a distribution option; local use does not require the project's GitHub repository or any founder-operated service to remain online. Future live connectors are described in the [roadmap](ROADMAP.md) and are separate from this snapshot interface.
+
+## Read your local copy
+
+From the repository root, using Python's standard library:
+
+```python
+import json
+from pathlib import Path
+
+payload = json.loads(Path("api/v1/wells.json").read_text(encoding="utf-8"))
+print(payload["metadata"]["retrieved_at"], len(payload["wells"]))
+```
+
+This reads the included snapshot without a network request. To expose the same files to a local browser or tool, run `python -m http.server 8765 --bind 127.0.0.1` and use `http://127.0.0.1:8765/api/v1/` as the base URL.
+
 ## Endpoints
 
 Base URL:

@@ -1,10 +1,27 @@
-# Terlingua Water Atlas
+# Water Atlas
 
-An open public-information resource for groundwater and water systems around Terlingua, Study Butte and southern Brewster County, Texas.
+Open-source software and a shared source catalog for finding water information, accessing original evidence, and understanding how current it is. Terlingua, Texas is the first test case; the planned connector system will support other places.
 
-Explore documented well records, find original public reports, and reuse the evidence in your own research or application. This independent resource supports residents, researchers, utilities and anyone interested in the area's water. It does not represent an agency, endorse property purchases or advocate a particular infrastructure project.
+**Water Atlas must remain useful without any service operated or funded by its founder.** People run the software on their own computers or infrastructure. Any paid AI, processing or storage uses the operator's own accounts and budget. The core works independently of an optional project website, donations or hosted service.
+
+The [operating model](docs/OPERATING-MODEL.md) defines this commitment. The [roadmap](docs/ROADMAP.md) describes the first connector-based version: find sources, retrieve evidence on demand, show its dates and changes, and optionally schedule checks on the user's own machine. AI would help people find and understand evidence through tools they control.
+
+## What exists and what comes next
+
+| Available now | Planned first version |
+| --- | --- |
+| Local Terlingua map and searchable source library | Reusable connectors with geographic coverage and access instructions |
+| Dated JSON, CSV and GeoJSON snapshots | On-demand retrieval with local caching and explicit freshness status |
+| Manual acquisition, audit and source-download scripts | Optional user-managed scheduling and AI tool integration |
+| Original-source links and evidence limitations | River history and rights/access research connected by place and date |
+
+The current release is a research snapshot and supporting tools. Live connector services, an AI question interface and a scheduler are not implemented. A static project website may explain the project and accept donations; any future hosted edition would have a separate funded budget and remain optional. No donation collection or hosted edition is configured by this repository.
+
+This independent project supports residents, researchers, utilities and anyone interested in water evidence. Sources retain their own access terms and availability; a local installation still needs internet access to retrieve new information from publishers.
 
 ## Explore and reuse
+
+These resources form the Terlingua case study:
 
 | Resource | What it provides |
 | --- | --- |
@@ -23,14 +40,14 @@ The map and library links above identify the HTML entry points; GitHub's file vi
 Use Python 3.11 or newer. From the repository root:
 
 ```sh
-python -m http.server 8765
+python -m http.server 8765 --bind 127.0.0.1
 ```
 
-Open the [map](http://localhost:8765/groundwater-map/dist/) or [source library](http://localhost:8765/research/). Leaflet and the well snapshot are bundled; no npm install or build is required. Map backgrounds, regional overlays and original source links need internet access.
+Open the [map](http://localhost:8765/groundwater-map/dist/) or [source library](http://localhost:8765/research/). This serves the downloaded files on your own computer; no cloud server or project account is required. Leaflet and the well snapshot are bundled; no npm install or build is required. Map backgrounds, regional overlays and original source links need internet access.
 
 ## Use the data
 
-The [API guide](docs/API.md) documents formats, identifiers, example code and snapshot dates. The files require no API key. Download and filter them in your application; there is no server-side query service.
+The [API guide](docs/API.md) documents formats, identifiers, example code and snapshot dates. The same files are included locally under `api/v1/` and require no API key. Read them from disk, serve your own copy or use the optional public download URLs; there is no server-side query service.
 
 API base URL:
 
@@ -53,7 +70,7 @@ Historical exploratory files remain available for provenance. Their dated proper
 
 ## Keep it useful
 
-Corrections, missing public sources, accessibility improvements and hydrogeological review are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). Updates currently require review and publication by a maintainer; no scheduled source updater is active. The [maintenance guide](docs/MAINTENANCE.md) describes the process and when a database could become useful.
+Corrections, missing public sources, accessibility improvements and hydrogeological review are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). Current refresh scripts run locally when invoked; publishing changes to the shared snapshot requires maintainer review. No scheduled source updater is active. The [maintenance guide](docs/MAINTENANCE.md) describes the current manual process. Future background checks must be explicitly enabled and run with the operator's resources; they stop when that machine is off unless the operator arranges another place to run them.
 
 ## License and attribution
 

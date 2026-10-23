@@ -1,8 +1,10 @@
-# Maintaining the public information resource
+# Maintaining Water Atlas and the Terlingua snapshot
 
 The published map, source library and API are reviewed snapshots. Their purpose is to make public evidence accessible and reusable, with its original context. Updates should improve that evidence without promoting a particular property, supplier or infrastructure proposal.
 
-**Current operating model:** files in a public GitHub repository, a static map and library, and read-only API exports. There is no scheduled source updater and no cloud database. The commands below use Python 3.11 or newer and run from the repository root.
+**Current implementation:** local files, a static map and library, and read-only snapshot exports. There is no scheduled source updater, AI service or cloud database. The commands below run on the operator's computer using Python 3.11 or newer from the repository root. Downloads and any associated costs belong to that operator; they do not automatically publish changes or upload local state.
+
+The [operating model](OPERATING-MODEL.md) requires that the core remain useful without a founder-operated service. This guide covers the existing manual refresh process. The [roadmap](ROADMAP.md) describes future connectors, on-demand freshness checks and optional user-managed schedules; those features are not yet implemented.
 
 ## 1. Retrieve sources and discover new publications
 
@@ -91,8 +93,12 @@ Publish the reviewed commit and record its full SHA. That SHA gives API consumer
 
 Retain entry-level dates for collections that mix old and new sources. Do not mass-update every retrieval date when only a few documents were checked. Mark failed or inaccessible sources and preserve their prior provenance. A successful HTTP response can still contain an error page or incomplete export.
 
-## Automation and a future database
+## User-managed automation and storage
 
-A useful first automation would check known URLs for changes and run the existing validators, then open a reviewable update. It should retain retrieval logs, avoid excessive requests and leave interpretation to review. Discovery of new meeting packets and reports needs its own publisher-specific process. Neither process is active today.
+A future installation should refresh on request and optionally use a schedule explicitly set up by its operator. Scheduling must be off by default, include pause/removal instructions, and bound requests, retries and processing. Checks run on that operator's machine or their chosen infrastructure; they pause when it is off. The project must not supply a central fallback job or a maintainer's billing account. Existing repository CI checks code and snapshots on pushes and pull requests; it is not a live source monitor.
 
-Static files currently make the resource easy to host, copy and cite. A cloud database could become useful for incremental observations, geographic queries, richer search or several active contributors. If that need develops, retain stable source IDs, original-source provenance, revision history and downloadable snapshots. Keep reviewed published records separate from newly ingested material. A database improves access and operations; it does not make an old observation current or validate an interpretation.
+Source checks should retain local retrieval logs, avoid excessive requests and compare only relevant changes. Finding new meeting packets and reports requires publisher-specific discovery in addition to checking known URLs. A successful check does not establish a recent measurement or a verified legal status. The operator may propose reviewed changes back to the public catalog, but local use must not depend on publication or maintainer availability.
+
+Prefer portable files and, when needed, a local database for metadata and caches. Preserve stable source IDs, version history, dates and exportable snapshots. Keep selected excerpts or evidence versions where needed for traceability instead of mirroring every upstream archive. Separate raw retrievals from reviewed interpretations. Any cloud database or hosted monitoring service is an optional deployment paid for by its operator and must support the same import/export path.
+
+A future shared service may run only within its separately funded operating budget, with quotas and a defined pause/shutdown policy. Donation shortfalls must not become an automatic personal expense for the founder or cause the local software to stop working. No hosted service, donation collection or background monitoring is configured by these instructions.
