@@ -51,6 +51,8 @@ Combine source search, a map and a timeline. Let someone select an area, discove
 
 ## Release boundary
 
-Version one succeeds when this workflow runs on a user's computer with documented resource controls. It does not promise exhaustive coverage, automatic legal determinations, real-time monitoring while offline, or a funded public AI service. Donation setup, founder-operated hosting, full imagery archives and continuous global monitoring are outside this release.
+An optional static [community coverage website](COMMUNITY-MAP.md) can develop alongside the local tools. It will highlight published regional collections, show topic-specific readiness and dates, and offer copyable prompts for researching an unindexed area. Terlingua starts as a dated source collection; its color must not imply that the planned live connectors already exist. The [starter research prompt](../prompts/EXPLORE-AN-AREA.md) is available now; the interactive website and its region-package importer are not implemented.
+
+Version one succeeds when this workflow runs on a user's computer with documented resource controls. It does not promise exhaustive coverage, automatic legal determinations, real-time monitoring while offline, or a funded public AI service. Donation setup, founder-operated application services, full imagery archives and continuous global monitoring are outside this release. The optional static coverage website must not become a requirement for local use.
 
 Keep the [current maintenance workflow](MAINTENANCE.md) available while these capabilities are developed. Preserve dated Terlingua snapshots so new connector outputs can be checked against known examples rather than silently replacing the research history.

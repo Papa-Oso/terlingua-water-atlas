@@ -6,6 +6,8 @@ Open-source software and a shared source catalog for finding water information, 
 
 The [operating model](docs/OPERATING-MODEL.md) defines this commitment. The [roadmap](docs/ROADMAP.md) describes the first connector-based version: find sources, retrieve evidence on demand, show its dates and changes, and optionally schedule checks on the user's own machine. AI would help people find and understand evidence through tools they control.
 
+The planned [community coverage map](docs/COMMUNITY-MAP.md) will highlight contributed areas and invite visitors to help index places they care about. Color will show documented coverage, not water availability. Start contributing with the [copyable area-research prompt](prompts/EXPLORE-AN-AREA.md), using your own AI or research tools.
+
 ## What exists and what comes next
 
 | Available now | Planned first version |

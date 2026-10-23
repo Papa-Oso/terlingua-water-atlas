@@ -17,6 +17,8 @@ For connector or AI changes, explain which machine runs the work, which accounts
 
 ## Useful contributions
 
+For a new area, start with the [area-research prompt](prompts/EXPLORE-AN-AREA.md) and the [community coverage plan](docs/COMMUNITY-MAP.md). A few well-supported sources are useful; you do not need to build every connector. AI-generated packages are drafts until reviewed. An issue or pull request can document unverified access or missing evidence without claiming the area is complete.
+
 - Correct a location, measurement, source link or evidence classification.
 - Find a missing public report or a more recent version of an existing source.
 - Reconcile records that may refer to the same physical well while preserving their original identifiers.
